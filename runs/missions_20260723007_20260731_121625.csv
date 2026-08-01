@@ -1,0 +1,5 @@
+mission,goal_x,goal_y,attempt,result,wall_s,epoch_start,epoch_end
+adjacent-x,6.20,3.64,1,SUCCEEDED,4.3,1785489385.6,1785489390.2
+adjacent-y,-4.84,-5.76,1,SUCCEEDED,0.1,1785489393.2,1785489393.2
+diagonal,6.20,-6.36,1,SUCCEEDED,0.1,1785489396.2,1785489396.3
+home,0.00,0.00,1,SUCCEEDED,0.1,1785489399.3,1785489399.3

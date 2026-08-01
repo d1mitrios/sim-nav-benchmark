@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or its data, please cite it as below."
+title: "sim-nav-benchmark: indoor navigation among walking people, measured in Isaac Sim"
+type: software
+authors:
+  - family-names: Gkiokas
+    given-names: Dimitrios
+    email: dimitris.gkiokas@outlook.com
+version: "1.0"
+date-released: "2026-07-31"
+url: "https://github.com/d1mitrios/sim-nav-benchmark"
+license: MIT

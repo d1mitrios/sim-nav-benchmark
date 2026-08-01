@@ -1,0 +1,64 @@
+[INFO] [1785064292.378172137] [yolo_navigator]: v2: Φόρτωση YOLOv8 για αυτόνομη πλοήγηση...
+[INFO] [1785064292.524285700] [yolo_navigator]: v2.9.1: Σύστημα Ενεργό! + WALL_FOLLOW + RUN_RESET (παρθένο state ανά batch run).
+[INFO] [1785064292.576246399] [yolo_navigator]: [FTG] gap=+0.00 W=0.00
+[INFO] [1785064292.577083510] [yolo_navigator]: [STATUS] mode=FTG front=999.00 L=10.00 R=10.00 gap=+0.00 v=+0.40 w=+0.00 personLvl=0
+[INFO] [1785064297.577502280] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=3.75 R=3.13 gap=+0.59 v=+0.12 w=+0.32 personLvl=0
+[INFO] [1785064302.647595141] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=3.42 R=3.03 gap=-1.25 v=+0.10 w=-0.85 personLvl=0
+[INFO] [1785064306.175753443] [yolo_navigator]: [SENSOR_STALE] no /scan for 2.5s
+[INFO] [1785064307.676732544] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=3.35 R=3.03 gap=+0.49 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064312.677266982] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=3.35 R=3.03 gap=+0.49 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064317.725768786] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=3.35 R=3.03 gap=+0.49 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064322.830148848] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=3.35 R=3.03 gap=+0.49 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064327.876683545] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=3.35 R=3.03 gap=+0.49 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064332.960024057] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=3.35 R=3.03 gap=+0.49 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064337.975488135] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=3.35 R=3.03 gap=+0.49 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064342.976495621] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=3.35 R=3.03 gap=+0.49 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064346.611119612] [yolo_navigator]: [RUN_RESET] Κενό /scan >10s -> παρθένο state για νέο run
+[INFO] [1785064346.625802166] [yolo_navigator]: [FTG] gap=-0.01 W=4.73
+[INFO] [1785064348.150466656] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=3.72 R=3.50 gap=-0.13 v=+0.34 w=+0.29 personLvl=0
+[INFO] [1785064353.131394904] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=3.41 R=3.73 gap=-0.25 v=+0.28 w=+0.13 personLvl=0
+[INFO] [1785064358.176450444] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=3.23 R=3.19 gap=-0.37 v=+0.22 w=-0.03 personLvl=0
+[INFO] [1785064363.226214144] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=3.31 R=2.61 gap=-0.37 v=+0.22 w=-0.02 personLvl=0
+[INFO] [1785064368.226451760] [yolo_navigator]: [STATUS] mode=FTG front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.22 w=-0.03 personLvl=0
+[INFO] [1785064370.476145119] [yolo_navigator]: [SENSOR_STALE] no /scan for 2.5s
+[INFO] [1785064373.276533118] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064378.319795463] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064383.326524231] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064388.376736585] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064393.426193593] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064398.476510032] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064403.526541801] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064408.575172045] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064413.576482171] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064418.626598168] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=0.84 L=1.13 R=1.86 gap=-0.37 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064420.030574465] [yolo_navigator]: [RUN_RESET] Κενό /scan >10s -> παρθένο state για νέο run
+[INFO] [1785064420.080439134] [yolo_navigator]: [FTG] gap=-0.47 W=5.14
+[INFO] [1785064423.683502018] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=2.43 R=2.43 gap=+0.03 v=+0.38 w=-0.10 personLvl=0
+[INFO] [1785064428.727044994] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=2.09 R=1.98 gap=+0.31 v=+0.25 w=+0.19 personLvl=0
+[INFO] [1785064433.728026708] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=1.70 R=1.74 gap=+0.27 v=+0.27 w=+0.12 personLvl=0
+[INFO] [1785064438.809316632] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=1.35 R=1.71 gap=+0.24 v=+0.28 w=+0.10 personLvl=0
+[INFO] [1785064442.542131024] [yolo_navigator]: [WEDGE] open=+0.87
+[INFO] [1785064443.827093665] [yolo_navigator]: [STATUS] mode=WEDGE front=10.00 L=1.06 R=1.50 gap=+0.00 v=+0.40 w=+1.00 personLvl=0
+[INFO] [1785064444.075593811] [yolo_navigator]: [FTG] gap=+1.44 W=1.10
+[INFO] [1785064447.805838643] [yolo_navigator]: [WEDGE] open=+1.27
+[INFO] [1785064448.494089117] [yolo_navigator]: [FTG] gap=+1.36 W=4.08
+[INFO] [1785064448.827762490] [yolo_navigator]: [STATUS] mode=FTG front=0.66 L=0.66 R=1.26 gap=-0.42 v=+0.17 w=-0.75 personLvl=0
+[INFO] [1785064450.483724062] [yolo_navigator]: [WEDGE] open=+1.45
+[INFO] [1785064452.176006862] [yolo_navigator]: [ROTATE_OPEN] front=0.34 open=+1.45
+[INFO] [1785064452.225997145] [yolo_navigator]: [REVERSE] front=0.31 dir=-1
+[INFO] [1785064453.845944892] [yolo_navigator]: [STATUS] mode=REVERSE front=0.20 L=0.30 R=1.07 gap=-0.46 v=+0.05 w=-1.20 personLvl=0
+[INFO] [1785064454.326383848] [yolo_navigator]: [WEDGE] open=+0.44
+[INFO] [1785064455.275086826] [yolo_navigator]: [FTG] gap=+0.78 W=0.67
+[INFO] [1785064458.904424206] [yolo_navigator]: [STATUS] mode=FTG front=0.79 L=0.35 R=0.70 gap=+0.65 v=+0.10 w=+0.40 personLvl=0
+[INFO] [1785064463.925810224] [yolo_navigator]: [STATUS] mode=FTG front=0.79 L=0.49 R=0.53 gap=+0.35 v=+0.23 w=+0.01 personLvl=0
+[INFO] [1785064468.926080275] [yolo_navigator]: [ROTATE_OPEN] front=0.40 open=+0.73
+[INFO] [1785064468.926791099] [yolo_navigator]: [STATUS] mode=ROTATE_OPEN front=0.40 L=1.83 R=0.36 gap=+0.35 v=+0.00 w=+0.36 personLvl=0
+[INFO] [1785064469.681564139] [yolo_navigator]: [FTG] gap=+0.34 W=2.66
+[INFO] [1785064473.927689625] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=1.31 R=0.37 gap=-0.01 v=+0.39 w=-0.08 personLvl=0
+[INFO] [1785064477.725754367] [yolo_navigator]: [ROTATE_OPEN] front=0.39 open=+0.58
+[INFO] [1785064478.575835535] [yolo_navigator]: [FTG] gap=+0.09 W=2.43
+[INFO] [1785064478.975477064] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=0.94 R=0.30 gap=-0.05 v=+0.38 w=-0.25 personLvl=0
+[INFO] [1785064483.976722550] [yolo_navigator]: [STATUS] mode=FTG front=10.00 L=0.78 R=0.51 gap=-0.00 v=+0.40 w=-0.06 personLvl=0
+[INFO] [1785064488.076795580] [yolo_navigator]: [SENSOR_STALE] no /scan for 2.5s
+[INFO] [1785064489.026384165] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=0.79 R=0.57 gap=+0.00 v=+0.00 w=+0.00 personLvl=0
+[INFO] [1785064494.027146799] [yolo_navigator]: [STATUS] mode=SENSOR_STALE front=10.00 L=0.79 R=0.57 gap=+0.00 v=+0.00 w=+0.00 personLvl=0

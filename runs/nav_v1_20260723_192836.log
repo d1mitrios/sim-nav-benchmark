@@ -1,0 +1,10 @@
+[INFO] [1784824120.580297015] [yolo_navigator]: Φόρτωση YOLOv8 για αυτόνομη πλοήγηση...
+[INFO] [1784824120.689756232] [yolo_navigator]: Σύστημα Ενεργό! Προχωράω με Follow-the-Gap...
+Ultralytics 8.4.69 🚀 Python-3.12.3 torch-2.12.0+cu130 CUDA:0 (NVIDIA GeForce RTX 2080 Ti, 11264MiB)
+Ultralytics 8.4.69 🚀 Python-3.12.3 torch-2.12.0+cu130 CUDA:0 (NVIDIA GeForce RTX 2080 Ti, 11264MiB)
+Ultralytics 8.4.69 🚀 Python-3.12.3 torch-2.12.0+cu130 CUDA:0 (NVIDIA GeForce RTX 2080 Ti, 11264MiB)
+Ultralytics 8.4.69 🚀 Python-3.12.3 torch-2.12.0+cu130 CUDA:0 (NVIDIA GeForce RTX 2080 Ti, 11264MiB)
+YOLOv8n summary (fused): 72 layers, 3,151,904 parameters, 0 gradients, 8.7 GFLOPs
+YOLOv8n summary (fused): 72 layers, 3,151,904 parameters, 0 gradients, 8.7 GFLOPs
+YOLOv8n summary (fused): 72 layers, 3,151,904 parameters, 0 gradients, 8.7 GFLOPs
+YOLOv8n summary (fused): 72 layers, 3,151,904 parameters, 0 gradients, 8.7 GFLOPs

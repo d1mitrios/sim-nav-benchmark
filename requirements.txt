@@ -1,0 +1,8 @@
+# Analysis and figure scripts only (the simulator side runs inside Isaac Sim's
+# own Python, and the ROS side uses the system ROS 2 Jazzy installation).
+numpy
+scipy
+matplotlib
+pyyaml
+pillow
+reportlab

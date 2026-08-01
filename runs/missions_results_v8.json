@@ -1,0 +1,502 @@
+[
+ {
+  "seed": "20260723001",
+  "status": "CAGE",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 7.899608914370382,
+   "adjacent-y": 7.006398861041241,
+   "diagonal": 9.73754861348584,
+   "home": 0.9370186764414037
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "3/3",
+  "coverage": 88.6
+ },
+ {
+  "seed": "20260723002",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.9298134221444642,
+   "adjacent-y": 13.788588107561992,
+   "diagonal": 9.688064615804334,
+   "home": 5.769639156827747
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "1/3",
+  "coverage": 68.4
+ },
+ {
+  "seed": "20260723003",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.28715501040378794,
+   "adjacent-y": 15.722156754084345,
+   "diagonal": 11.523728780216931,
+   "home": 6.869713822278189
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "1/3",
+  "coverage": 69.2
+ },
+ {
+  "seed": "20260723004",
+  "status": "DELIRIUM",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 2.723242919755783,
+   "adjacent-y": 9.473284594057121,
+   "diagonal": 3.229693638721791,
+   "home": 5.836245454056914
+  },
+  "real_succ": 0,
+  "fake_succ": 1,
+  "pred_agree": "0/3",
+  "coverage": 55.6
+ },
+ {
+  "seed": "20260723005",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 8.445341023309835,
+   "adjacent-y": 5.02445947341602,
+   "diagonal": 8.251818042104418,
+   "home": 2.7212298690114367
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "0/3",
+  "coverage": 57.7
+ },
+ {
+  "seed": "20260723006",
+  "status": "DELIRIUM",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "TIMEOUT",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 7.5938461928063825,
+   "adjacent-y": 6.813493964186069,
+   "diagonal": 3.7485746624550513,
+   "home": 6.214064692292799
+  },
+  "real_succ": 0,
+  "fake_succ": 2,
+  "pred_agree": "0/3",
+  "coverage": 73.0
+ },
+ {
+  "seed": "20260723007",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "ABORTED",
+   "diagonal": "TIMEOUT",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 10.745923320031649,
+   "adjacent-y": 6.858780795447541,
+   "diagonal": 5.9083798963844565,
+   "home": 6.301313275817986
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "0/3",
+  "coverage": 63.0
+ },
+ {
+  "seed": "20260723008",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.12267436570041843,
+   "adjacent-y": 9.618532320473847,
+   "diagonal": 3.5221875304986248,
+   "home": 7.1025168778398555
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "1/3",
+  "coverage": 92.1
+ },
+ {
+  "seed": "20260723009",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 10.768537551589816,
+   "adjacent-y": 3.2708372016962266,
+   "diagonal": 8.288463126539202,
+   "home": 4.632301371888492
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "0/3",
+  "coverage": 55.2
+ },
+ {
+  "seed": "20260723010",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.9202141055211013,
+   "adjacent-y": 13.837345446291351,
+   "diagonal": 9.16537942477015,
+   "home": 7.0959064255386
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "1/3",
+  "coverage": 54.9
+ },
+ {
+  "seed": "20260723011",
+  "status": "CAGE",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 8.088164192200848,
+   "adjacent-y": 7.379680819656092,
+   "diagonal": 9.520386231660982,
+   "home": 0.18208239892971534
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "3/3",
+  "coverage": 54.7
+ },
+ {
+  "seed": "20260723012",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.3289635238138113,
+   "adjacent-y": 11.538413972466058,
+   "diagonal": 8.579587227833283,
+   "home": 5.805495758331066
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "1/3",
+  "coverage": 53.8
+ },
+ {
+  "seed": "20260723013",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 4.056344413385037,
+   "adjacent-y": 12.376901874055559,
+   "diagonal": 12.214685014358741,
+   "home": 0.20892582415776179
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "0/3",
+  "coverage": 54.1
+ },
+ {
+  "seed": "20260723014",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "TIMEOUT",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 5.238409777785621,
+   "adjacent-y": 15.081257374635578,
+   "diagonal": 16.55976889935364,
+   "home": 9.444697612946642
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "1/3",
+  "coverage": 55.8
+ },
+ {
+  "seed": "20260723015",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 3.942126963962475,
+   "adjacent-y": 11.161092285255954,
+   "diagonal": 9.12550283546063,
+   "home": 3.805099341672961
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "1/3",
+  "coverage": 58.2
+ },
+ {
+  "seed": "20260723016",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 5.121478399837296,
+   "adjacent-y": 9.818632338569358,
+   "diagonal": 6.3540177053577676,
+   "home": 5.001481880403047
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "0/3",
+  "coverage": 87.6
+ },
+ {
+  "seed": "20260723017",
+  "status": "DELIRIUM",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 6.743367111465903,
+   "adjacent-y": 1.6458933744322564,
+   "diagonal": 9.7418996094191,
+   "home": 6.99637849176272
+  },
+  "real_succ": 0,
+  "fake_succ": 2,
+  "pred_agree": "1/3",
+  "coverage": 80.1
+ },
+ {
+  "seed": "20260723018",
+  "status": "CAGE",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 10.263954013926602,
+   "adjacent-y": 5.858467803103471,
+   "diagonal": 11.159614195840284,
+   "home": 3.547413705786231
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "3/3",
+  "coverage": 50.4
+ },
+ {
+  "seed": "20260723019",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.5539214745792044,
+   "adjacent-y": 7.89917084256316,
+   "diagonal": 3.203955367978774,
+   "home": 7.098893575762353
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "1/3",
+  "coverage": 67.5
+ },
+ {
+  "seed": "20260723020",
+  "status": "CAGE",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 7.154461545078008,
+   "adjacent-y": 7.478696410471547,
+   "diagonal": 7.061545510722139,
+   "home": 0.11253888216967503
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "3/3",
+  "coverage": 84.7
+ },
+ {
+  "seed": "20260723021",
+  "status": "DELIRIUM",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 14.5508529303268,
+   "adjacent-y": 6.518278990653898,
+   "diagonal": 14.031960803822109,
+   "home": 5.771045832429335
+  },
+  "real_succ": 0,
+  "fake_succ": 1,
+  "pred_agree": "0/3",
+  "coverage": 47.6
+ },
+ {
+  "seed": "20260723022",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 3.656497367700406,
+   "adjacent-y": 14.128590304768554,
+   "diagonal": 12.329830493563161,
+   "home": 5.644091158016497
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "0/3",
+  "coverage": 66.9
+ },
+ {
+  "seed": "20260723023",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 9.514021757385255,
+   "adjacent-y": 4.529058401036577,
+   "diagonal": 7.581992482190945,
+   "home": 2.9072751847735363
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "0/3",
+  "coverage": 67.7
+ },
+ {
+  "seed": "20260723024",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 2.4271442066758206,
+   "adjacent-y": 13.217830154756868,
+   "diagonal": 10.427216359124808,
+   "home": 4.930728140954437
+  },
+  "real_succ": 0,
+  "fake_succ": 0,
+  "pred_agree": "0/3",
+  "coverage": 47.5
+ },
+ {
+  "seed": "20260723025",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.8282662615367112,
+   "adjacent-y": 16.302699316370894,
+   "diagonal": 7.988943422005191,
+   "home": 9.42582887601934
+  },
+  "real_succ": 1,
+  "fake_succ": 0,
+  "pred_agree": "1/3",
+  "coverage": 65.9
+ }
+]
