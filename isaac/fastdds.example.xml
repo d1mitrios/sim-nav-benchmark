@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Fast DDS profile read by launch_isaac.bat (copy it to C:\isaac_project\fastdds.xml).
+     It switches ROS 2 traffic to UDPv4 only, because shared-memory transport does not
+     cross the boundary between Windows and WSL2. If Isaac and WSL do not see each
+     other's topics, uncomment the block below and put the WSL address (hostname -I
+     inside WSL) in place of WSL_IP. -->
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+  <transport_descriptors>
+    <transport_descriptor><transport_id>udp</transport_id><type>UDPv4</type></transport_descriptor>
+  </transport_descriptors>
+  <participant profile_name="udp" is_default_profile="true"><rtps>
+    <userTransports><transport_id>udp</transport_id></userTransports>
+    <useBuiltinTransports>false</useBuiltinTransports>
+    <!--
+    <builtin><initialPeersList>
+      <locator><udpv4><address>WSL_IP</address></udpv4></locator>
+    </initialPeersList></builtin>
+    -->
+  </rtps></participant>
+</profiles>

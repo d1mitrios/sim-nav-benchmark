@@ -1,0 +1,55 @@
+{
+ "bins": [
+  {
+   "lo": 0.5,
+   "hi": 0.6,
+   "doors": 17,
+   "approached": 6,
+   "crossed": 1,
+   "crossings": 2
+  },
+  {
+   "lo": 0.6,
+   "hi": 0.66,
+   "doors": 6,
+   "approached": 1,
+   "crossed": 1,
+   "crossings": 1
+  },
+  {
+   "lo": 0.66,
+   "hi": 0.72,
+   "doors": 15,
+   "approached": 8,
+   "crossed": 5,
+   "crossings": 9
+  },
+  {
+   "lo": 0.72,
+   "hi": 0.8,
+   "doors": 25,
+   "approached": 9,
+   "crossed": 5,
+   "crossings": 8
+  },
+  {
+   "lo": 0.8,
+   "hi": 0.95,
+   "doors": 37,
+   "approached": 14,
+   "crossed": 12,
+   "crossings": 16
+  }
+ ],
+ "hours": 4.545194444444446,
+ "km": 3.70088131993649,
+ "crossings": 36,
+ "doors": 100,
+ "approached": 38,
+ "narrowest_crossed": {
+  "seed": "20260723013",
+  "door": "door_S_H",
+  "width": 0.57,
+  "crossings": 2
+ }
+}

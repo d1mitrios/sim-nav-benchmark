@@ -1,0 +1,7 @@
+image: world_20260723025.pgm
+mode: trinary
+resolution: 0.050
+origin: [-9.794, -9.946, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196

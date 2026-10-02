@@ -1,0 +1,5 @@
+# keep shell and Python scripts with LF endings on Windows checkouts (WSL runs them),
+# and the Windows launcher with CRLF
+*.py text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
