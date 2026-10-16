@@ -1,0 +1,18 @@
+{
+ "rev_slam": {
+  "updates": 5051,
+  "bad": 514,
+  "median_share_bad": 0.3861280892904597,
+  "median_share_good": 0.8265568252280981,
+  "bad_below_half": 0.5544747081712063,
+  "good_below_half": 0.1355521269561384
+ },
+ "v9_slam": {
+  "updates": 1900,
+  "bad": 887,
+  "median_share_bad": 0.9352467003277527,
+  "median_share_good": 0.900788378067145,
+  "bad_below_half": 0.0665163472378805,
+  "good_below_half": 0.04146100691016782
+ }
+}

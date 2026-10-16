@@ -1,0 +1,5149 @@
+{
+ "v9_truth": {
+  "counts": {
+   "refused": 27,
+   "stop circle": 21,
+   "localization": 113,
+   "deadband": 8,
+   "walker": 2,
+   "phantom": 0,
+   "gave up": 4,
+   "out of time": 6,
+   "stuck": 7,
+   "other": 0
+  },
+  "attempts": [
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.4,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.23,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.04,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 2.7,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.6,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.05,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "walker",
+    "moved": 11.81,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 6.49,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.37,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.36,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "walker",
+    "moved": 5.6,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.05,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.04,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.04,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.16,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 2.79,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.06,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.23,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 3.88,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.06,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.13,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.05,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.06,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 1.08,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.86,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 6.18,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.11,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.9,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.18,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723008",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.2,
+    "at_door": false
+   },
+   {
+    "seed": "20260723008",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.05,
+    "at_door": false
+   },
+   {
+    "seed": "20260723008",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.33,
+    "at_door": false
+   },
+   {
+    "seed": "20260723008",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723008",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723008",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.4,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.17,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.09,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.52,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 3.38,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.87,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.62,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.22,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 5.76,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 17.58,
+    "at_door": true
+   },
+   {
+    "seed": "20260723010",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.28,
+    "at_door": true
+   },
+   {
+    "seed": "20260723010",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.09,
+    "at_door": true
+   },
+   {
+    "seed": "20260723010",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.2,
+    "at_door": true
+   },
+   {
+    "seed": "20260723010",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.72,
+    "at_door": true
+   },
+   {
+    "seed": "20260723010",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.29,
+    "at_door": true
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.49,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 1.8,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.66,
+    "at_door": true
+   },
+   {
+    "seed": "20260723011",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.36,
+    "at_door": true
+   },
+   {
+    "seed": "20260723011",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.33,
+    "at_door": true
+   },
+   {
+    "seed": "20260723011",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.43,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 5.55,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 1.16,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.5,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.96,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 5.31,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 6.44,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 2.37,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.34,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 3.37,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "SUCCEEDED",
+    "label": "refused",
+    "moved": 3.38,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.34,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 2.99,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.62,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.68,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.34,
+    "at_door": false
+   },
+   {
+    "seed": "20260723016",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 5.84,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 6.17,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.22,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.1,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.25,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 1.47,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.47,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 1.25,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.17,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.85,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.17,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.43,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.34,
+    "at_door": false
+   },
+   {
+    "seed": "20260723019",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 3.07,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.61,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.28,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 5.1,
+    "at_door": true
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.65,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.49,
+    "at_door": true
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723020",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 8.89,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.25,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.31,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.31,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.13,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.25,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.27,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.22,
+    "at_door": true
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 8.82,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.22,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.44,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.24,
+    "at_door": true
+   },
+   {
+    "seed": "20260723022",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 1.32,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.17,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 5.94,
+    "at_door": true
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.19,
+    "at_door": true
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.3,
+    "at_door": true
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": true
+   },
+   {
+    "seed": "20260723024",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723024",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723024",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723024",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 6.14,
+    "at_door": true
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723025",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723025",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723025",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.61,
+    "at_door": true
+   },
+   {
+    "seed": "20260723025",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.34,
+    "at_door": true
+   }
+  ]
+ },
+ "v9_slam": {
+  "counts": {
+   "refused": 30,
+   "stop circle": 53,
+   "localization": 62,
+   "deadband": 17,
+   "walker": 0,
+   "phantom": 16,
+   "gave up": 2,
+   "out of time": 2,
+   "stuck": 0,
+   "other": 1
+  },
+  "attempts": [
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.34,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 1.93,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "home",
+    "attempt": "2",
+    "result": "SUCCEEDED",
+    "label": "other",
+    "moved": 0.8,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 5.39,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.61,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 1.34,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.51,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 1.15,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 5.62,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.11,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 6.98,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 13.3,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 7.75,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 0.02,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 4.58,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 5.21,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.57,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.24,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.46,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 2.47,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 1.25,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 6.23,
+    "at_door": true
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723007",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723007",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723007",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723007",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723008",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 10.49,
+    "at_door": true
+   },
+   {
+    "seed": "20260723008",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.34,
+    "at_door": true
+   },
+   {
+    "seed": "20260723008",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.27,
+    "at_door": true
+   },
+   {
+    "seed": "20260723008",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723008",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.69,
+    "at_door": false
+   },
+   {
+    "seed": "20260723008",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.39,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 6.42,
+    "at_door": true
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.12,
+    "at_door": true
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.1,
+    "at_door": true
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.13,
+    "at_door": true
+   },
+   {
+    "seed": "20260723009",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.09,
+    "at_door": true
+   },
+   {
+    "seed": "20260723009",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.26,
+    "at_door": true
+   },
+   {
+    "seed": "20260723009",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.12,
+    "at_door": true
+   },
+   {
+    "seed": "20260723009",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.11,
+    "at_door": true
+   },
+   {
+    "seed": "20260723010",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.54,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.52,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.33,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.03,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.11,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.34,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 6.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 6.56,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 9.38,
+    "at_door": true
+   },
+   {
+    "seed": "20260723014",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723014",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.25,
+    "at_door": true
+   },
+   {
+    "seed": "20260723014",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723014",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.29,
+    "at_door": true
+   },
+   {
+    "seed": "20260723014",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.17,
+    "at_door": true
+   },
+   {
+    "seed": "20260723014",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.02,
+    "at_door": true
+   },
+   {
+    "seed": "20260723014",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.32,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 5.58,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 5.72,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 7.97,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.57,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.34,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.34,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.43,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.36,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.34,
+    "at_door": true
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.94,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.39,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.4,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.52,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.81,
+    "at_door": false
+   },
+   {
+    "seed": "20260723019",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 10.11,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.14,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.17,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 5.15,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.4,
+    "at_door": true
+   },
+   {
+    "seed": "20260723019",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.17,
+    "at_door": true
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.86,
+    "at_door": false
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 10.48,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.04,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 1.09,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stop circle",
+    "moved": 0.31,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 6.96,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.64,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 0.16,
+    "at_door": true
+   },
+   {
+    "seed": "20260723023",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723023",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723023",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723023",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "deadband",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 4.1,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 0.0,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.67,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.62,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 2.71,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.8,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.68,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.34,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.62,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.45,
+    "at_door": false
+   }
+  ]
+ },
+ "rev_truth": {
+  "counts": {
+   "refused": 4,
+   "stop circle": 0,
+   "localization": 11,
+   "deadband": 0,
+   "walker": 3,
+   "phantom": 0,
+   "gave up": 17,
+   "out of time": 9,
+   "stuck": 6,
+   "other": 5
+  },
+  "attempts": [
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 10.82,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 15.47,
+    "at_door": true
+   },
+   {
+    "seed": "20260723001",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 10.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.7,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.7,
+    "at_door": false
+   },
+   {
+    "seed": "20260723004",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 12.89,
+    "at_door": false
+   },
+   {
+    "seed": "20260723004",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 13.95,
+    "at_door": false
+   },
+   {
+    "seed": "20260723004",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 27.14,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 17.37,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 8.57,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.07,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.02,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723005",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723007",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 13.64,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "other",
+    "moved": 2.09,
+    "at_door": true
+   },
+   {
+    "seed": "20260723008",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "walker",
+    "moved": 15.25,
+    "at_door": false
+   },
+   {
+    "seed": "20260723008",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 4.52,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 8.67,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 4.2,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 10.4,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 12.89,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 17.41,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "walker",
+    "moved": 9.77,
+    "at_door": true
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 5.03,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.69,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.69,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.84,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 9.06,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.7,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.71,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.86,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 5.28,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 12.98,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 21.01,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "other",
+    "moved": 2.28,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 15.51,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "other",
+    "moved": 2.83,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 10.17,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 11.1,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 22.92,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "walker",
+    "moved": 7.07,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "other",
+    "moved": 2.74,
+    "at_door": true
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "other",
+    "moved": 2.61,
+    "at_door": true
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 14.62,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.69,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.7,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 11.54,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 4.6,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 13.51,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 6.2,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 16.72,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 3.35,
+    "at_door": true
+   },
+   {
+    "seed": "20260723025",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": true
+   }
+  ]
+ },
+ "rev_slam": {
+  "counts": {
+   "refused": 10,
+   "stop circle": 0,
+   "localization": 48,
+   "deadband": 0,
+   "walker": 3,
+   "phantom": 38,
+   "gave up": 8,
+   "out of time": 9,
+   "stuck": 3,
+   "other": 1
+  },
+  "attempts": [
+   {
+    "seed": "20260723001",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 14.98,
+    "at_door": true
+   },
+   {
+    "seed": "20260723002",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 11.33,
+    "at_door": true
+   },
+   {
+    "seed": "20260723002",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 1.96,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 2.82,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 15.66,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 12.09,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 4.44,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 3.24,
+    "at_door": false
+   },
+   {
+    "seed": "20260723004",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 9.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 7.31,
+    "at_door": false
+   },
+   {
+    "seed": "20260723004",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 4.86,
+    "at_door": false
+   },
+   {
+    "seed": "20260723004",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 2.27,
+    "at_door": false
+   },
+   {
+    "seed": "20260723004",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 4.47,
+    "at_door": true
+   },
+   {
+    "seed": "20260723004",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 3.09,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 11.69,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 3.44,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 7.11,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 5.74,
+    "at_door": false
+   },
+   {
+    "seed": "20260723005",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 5.92,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 7.17,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 4.61,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 3.41,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 3.4,
+    "at_door": false
+   },
+   {
+    "seed": "20260723006",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 8.02,
+    "at_door": true
+   },
+   {
+    "seed": "20260723006",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "other",
+    "moved": 2.22,
+    "at_door": true
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 12.99,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.59,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.35,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 7.83,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 4.68,
+    "at_door": false
+   },
+   {
+    "seed": "20260723007",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 3.93,
+    "at_door": false
+   },
+   {
+    "seed": "20260723008",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "walker",
+    "moved": 17.91,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 12.85,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 9.74,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 4.69,
+    "at_door": true
+   },
+   {
+    "seed": "20260723009",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 8.78,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 4.67,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 3.97,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 4.52,
+    "at_door": false
+   },
+   {
+    "seed": "20260723009",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 5.98,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 10.01,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 6.3,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 0.29,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 23.85,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 2.8,
+    "at_door": false
+   },
+   {
+    "seed": "20260723010",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 1.89,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.7,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.71,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.71,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.7,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.71,
+    "at_door": false
+   },
+   {
+    "seed": "20260723011",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.71,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 8.77,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 3.45,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 5.87,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "SUCCEEDED",
+    "label": "localization",
+    "moved": 10.06,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 5.54,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 10.26,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 4.17,
+    "at_door": false
+   },
+   {
+    "seed": "20260723012",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 3.64,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 7.78,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 3.09,
+    "at_door": true
+   },
+   {
+    "seed": "20260723013",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 8.49,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 3.9,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 6.07,
+    "at_door": false
+   },
+   {
+    "seed": "20260723013",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 8.85,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.65,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.7,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "walker",
+    "moved": 12.85,
+    "at_door": false
+   },
+   {
+    "seed": "20260723014",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 27.88,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "walker",
+    "moved": 7.55,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.12,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 13.45,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 3.67,
+    "at_door": false
+   },
+   {
+    "seed": "20260723015",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 22.05,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 10.4,
+    "at_door": true
+   },
+   {
+    "seed": "20260723015",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.0,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 11.05,
+    "at_door": true
+   },
+   {
+    "seed": "20260723016",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.05,
+    "at_door": true
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 8.69,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 3.61,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.71,
+    "at_door": false
+   },
+   {
+    "seed": "20260723017",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "refused",
+    "moved": 0.71,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 27.34,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 11.65,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 8.28,
+    "at_door": false
+   },
+   {
+    "seed": "20260723018",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 2.26,
+    "at_door": false
+   },
+   {
+    "seed": "20260723019",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 6.75,
+    "at_door": false
+   },
+   {
+    "seed": "20260723019",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 4.28,
+    "at_door": false
+   },
+   {
+    "seed": "20260723019",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 2.76,
+    "at_door": false
+   },
+   {
+    "seed": "20260723019",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 2.89,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 8.65,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 19.31,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 11.71,
+    "at_door": true
+   },
+   {
+    "seed": "20260723020",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 8.32,
+    "at_door": false
+   },
+   {
+    "seed": "20260723020",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 7.32,
+    "at_door": false
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 14.78,
+    "at_door": false
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 3.56,
+    "at_door": false
+   },
+   {
+    "seed": "20260723021",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "out of time",
+    "moved": 3.11,
+    "at_door": false
+   },
+   {
+    "seed": "20260723021",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 10.29,
+    "at_door": false
+   },
+   {
+    "seed": "20260723021",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 18.5,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 18.63,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 6.45,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 4.93,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 3.99,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "home",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 4.64,
+    "at_door": false
+   },
+   {
+    "seed": "20260723022",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 4.65,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 5.15,
+    "at_door": false
+   },
+   {
+    "seed": "20260723023",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 4.16,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 6.22,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 1.99,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 1.71,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 2.21,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 1.36,
+    "at_door": false
+   },
+   {
+    "seed": "20260723024",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 1.4,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 12.3,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 7.87,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "SUCCEEDED",
+    "label": "localization",
+    "moved": 15.54,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "localization",
+    "moved": 6.59,
+    "at_door": false
+   },
+   {
+    "seed": "20260723025",
+    "mission": "home",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "localization",
+    "moved": 2.64,
+    "at_door": false
+   }
+  ]
+ },
+ "exp9_slam": {
+  "counts": {
+   "refused": 0,
+   "stop circle": 0,
+   "localization": 0,
+   "deadband": 0,
+   "walker": 2,
+   "phantom": 4,
+   "gave up": 3,
+   "out of time": 0,
+   "stuck": 3,
+   "other": 5
+  },
+  "attempts": [
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 6.24,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "adjacent-x",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "other",
+    "moved": 0.93,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 10.99,
+    "at_door": false
+   },
+   {
+    "seed": "20260723001",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "other",
+    "moved": 0.72,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "TIMEOUT",
+    "label": "walker",
+    "moved": 32.11,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "TIMEOUT",
+    "label": "phantom",
+    "moved": 28.18,
+    "at_door": false
+   },
+   {
+    "seed": "20260723002",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "gave up",
+    "moved": 9.42,
+    "at_door": true
+   },
+   {
+    "seed": "20260723002",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.06,
+    "at_door": true
+   },
+   {
+    "seed": "20260723002",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.16,
+    "at_door": true
+   },
+   {
+    "seed": "20260723002",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "stuck",
+    "moved": 0.15,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-x",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "walker",
+    "moved": 13.93,
+    "at_door": true
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-y",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "other",
+    "moved": 1.67,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "adjacent-y",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "other",
+    "moved": 0.52,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 3.51,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "diagonal",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 0.53,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "home",
+    "attempt": "1",
+    "result": "ABORTED",
+    "label": "phantom",
+    "moved": 1.55,
+    "at_door": false
+   },
+   {
+    "seed": "20260723003",
+    "mission": "home",
+    "attempt": "2",
+    "result": "ABORTED",
+    "label": "other",
+    "moved": 1.32,
+    "at_door": false
+   }
+  ]
+ }
+}

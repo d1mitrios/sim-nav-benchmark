@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# printed output of analysis/run_all.sh
+analysis/output/
+
+# signal and state files written while a batch runs
+runs/current_seed.txt
+runs/batch_stop.txt
+runs/save_map_now.txt
+runs/nav_go.txt
+runs/missions_done_*.txt
+runs/missions_skip_*.txt
+world_seed.txt
+odom_noise.txt
+
+# local files
+fastdds.xml
+yolov8n.pt
+hub-*/

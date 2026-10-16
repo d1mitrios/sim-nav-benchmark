@@ -1,0 +1,891 @@
+[
+ {
+  "seed": "20260723001",
+  "file": "missions_20260723001_20261014_030652.csv",
+  "params_md5": "b7f0bb38",
+  "status": "CAGE",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 7.9,
+   "adjacent-y": 7.0,
+   "diagonal": 9.74,
+   "home": 1.07
+  },
+  "real_succ": 1,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": false,
+   "adjacent-y": false,
+   "diagonal": false,
+   "home": true
+  },
+  "rtf": 0.5,
+  "path_m": 4.9,
+  "longest_still_s": 15.7,
+  "still_cmd_share": null,
+  "amcl_err_med": 1.86,
+  "amcl_err_max": 3.71
+ },
+ {
+  "seed": "20260723002",
+  "file": "missions_20260723002_20261014_032718.csv",
+  "params_md5": "b7f0bb38",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 5.0,
+   "adjacent-y": 9.61,
+   "diagonal": 7.92,
+   "home": 2.69
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.48,
+  "path_m": 15.5,
+  "longest_still_s": 15.4,
+  "still_cmd_share": null,
+  "amcl_err_med": 4.11,
+  "amcl_err_max": 5.84
+ },
+ {
+  "seed": "20260723003",
+  "file": "missions_20260723003_20261014_035448.csv",
+  "params_md5": "b7f0bb38",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 4.38,
+   "adjacent-y": 4.18,
+   "diagonal": 13.19,
+   "home": 6.68
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 20.3,
+  "longest_still_s": 238.5,
+  "still_cmd_share": {
+   "monitor": 0.43,
+   "controller": 0.95,
+   "smoother": 0.54
+  },
+  "amcl_err_med": 0.09,
+  "amcl_err_max": 0.61
+ },
+ {
+  "seed": "20260723004",
+  "file": "missions_20260723004_20261014_043857.csv",
+  "params_md5": "b7f0bb38",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.3,
+   "adjacent-y": 9.52,
+   "diagonal": 3.24,
+   "home": 5.87
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 18.1,
+  "longest_still_s": 476.7,
+  "still_cmd_share": {
+   "smoother": 0.54,
+   "controller": 0.99,
+   "monitor": 0.96
+  },
+  "amcl_err_med": 0.31,
+  "amcl_err_max": 1.04
+ },
+ {
+  "seed": "20260723005",
+  "file": "missions_20260723005_20261014_052312.csv",
+  "params_md5": "b7f0bb38",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 9.57,
+   "adjacent-y": 5.52,
+   "diagonal": 5.18,
+   "home": 3.47
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.52,
+  "path_m": 4.6,
+  "longest_still_s": 302.8,
+  "still_cmd_share": {
+   "controller": 0.94,
+   "smoother": 0.62
+  },
+  "amcl_err_med": 0.05,
+  "amcl_err_max": 0.42
+ },
+ {
+  "seed": "20260723006",
+  "file": "missions_20260723006_20261014_060017.csv",
+  "params_md5": "b7f0bb38",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 3.48,
+   "adjacent-y": 11.48,
+   "diagonal": 10.67,
+   "home": 4.9
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 10.6,
+  "longest_still_s": 230.7,
+  "still_cmd_share": {
+   "monitor": 0.97,
+   "smoother": 0.99,
+   "controller": 0.99
+  },
+  "amcl_err_med": 7.38,
+  "amcl_err_max": 10.79
+ },
+ {
+  "seed": "20260723007",
+  "file": "missions_20260723007_20261014_063457.csv",
+  "params_md5": "b7f0bb38",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 13.06,
+   "adjacent-y": 3.26,
+   "diagonal": 12.13,
+   "home": 5.88
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 6.2,
+  "longest_still_s": 313.2,
+  "still_cmd_share": {
+   "monitor": 0.62,
+   "smoother": 0.55,
+   "controller": 0.95
+  },
+  "amcl_err_med": 0.1,
+  "amcl_err_max": 0.88
+ },
+ {
+  "seed": "20260723008",
+  "file": "missions_20260723008_20261014_123214.csv",
+  "params_md5": "b7f0bb38",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.23,
+   "adjacent-y": 9.65,
+   "diagonal": 3.53,
+   "home": 7.29
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 23.3,
+  "longest_still_s": 20.2,
+  "still_cmd_share": null,
+  "amcl_err_med": 0.23,
+  "amcl_err_max": 3.14
+ },
+ {
+  "seed": "20260723009",
+  "file": "missions_20260723009_20261014_131200.csv",
+  "params_md5": "b7f0bb38",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 10.86,
+   "adjacent-y": 3.22,
+   "diagonal": 8.42,
+   "home": 4.68
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 7.4,
+  "longest_still_s": 972.3,
+  "still_cmd_share": {
+   "controller": 0.98,
+   "smoother": 0.16
+  },
+  "amcl_err_med": 0.06,
+  "amcl_err_max": 1.28
+ },
+ {
+  "seed": "20260723010",
+  "file": "missions_20260723010_20261014_141216.csv",
+  "params_md5": "b7f0bb38",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.17,
+   "adjacent-y": 14.25,
+   "diagonal": 10.64,
+   "home": 8.59
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 10.5,
+  "longest_still_s": 22.1,
+  "still_cmd_share": null,
+  "amcl_err_med": 3.8,
+  "amcl_err_max": 16.02
+ },
+ {
+  "seed": "20260723011",
+  "file": "missions_20260723011_20261014_142044.csv",
+  "params_md5": "b7f0bb38",
+  "status": "CAGE",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 8.09,
+   "adjacent-y": 7.38,
+   "diagonal": 9.53,
+   "home": 0.42
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": false,
+   "adjacent-y": false,
+   "diagonal": false,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 3.4,
+  "longest_still_s": 15.7,
+  "still_cmd_share": null,
+  "amcl_err_med": 0.74,
+  "amcl_err_max": 3.1
+ },
+ {
+  "seed": "20260723012",
+  "file": "missions_20260723012_20261014_145325.csv",
+  "params_md5": "b7f0bb38",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 3.52,
+   "adjacent-y": 12.39,
+   "diagonal": 11.72,
+   "home": 6.08
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.48,
+  "path_m": 6.4,
+  "longest_still_s": 976.7,
+  "still_cmd_share": {
+   "smoother": 0.99,
+   "monitor": 0.5,
+   "controller": 0.99
+  },
+  "amcl_err_med": 0.03,
+  "amcl_err_max": 0.76
+ },
+ {
+  "seed": "20260723013",
+  "file": "missions_20260723013_20261014_155405.csv",
+  "params_md5": "b7f0bb38",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 4.07,
+   "adjacent-y": 12.42,
+   "diagonal": 12.29,
+   "home": 0.29
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 13.0,
+  "longest_still_s": 726.1,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "smoother": 0.99,
+   "monitor": 0.9
+  },
+  "amcl_err_med": 0.05,
+  "amcl_err_max": 1.14
+ },
+ {
+  "seed": "20260723014",
+  "file": "missions_20260723014_20261014_163638.csv",
+  "params_md5": "b7f0bb38",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 5.7,
+   "adjacent-y": 15.84,
+   "diagonal": 14.63,
+   "home": 8.46
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": false,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 10.8,
+  "longest_still_s": 218.7,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "smoother": 0.96,
+   "monitor": 0.91
+  },
+  "amcl_err_med": 0.82,
+  "amcl_err_max": 9.32
+ },
+ {
+  "seed": "20260723015",
+  "file": "missions_20260723015_20261014_171305.csv",
+  "params_md5": "b7f0bb38",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 2.65,
+   "adjacent-y": 12.53,
+   "diagonal": 9.55,
+   "home": 5.35
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": false,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 5.6,
+  "longest_still_s": 252.5,
+  "still_cmd_share": {
+   "smoother": 0.75,
+   "controller": 0.93
+  },
+  "amcl_err_med": 0.03,
+  "amcl_err_max": 0.07
+ },
+ {
+  "seed": "20260723016",
+  "file": "missions_20260723016_20261014_173334.csv",
+  "params_md5": "b7f0bb38",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 5.1,
+   "adjacent-y": 9.84,
+   "diagonal": 6.36,
+   "home": 5.01
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.48,
+  "path_m": 5.7,
+  "longest_still_s": 284.6,
+  "still_cmd_share": {
+   "smoother": 0.64,
+   "controller": 0.94
+  },
+  "amcl_err_med": 0.1,
+  "amcl_err_max": 0.61
+ },
+ {
+  "seed": "20260723017",
+  "file": "missions_20260723017_20261014_175712.csv",
+  "params_md5": "b7f0bb38",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 3.23,
+   "adjacent-y": 13.73,
+   "diagonal": 12.82,
+   "home": 6.6
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": false,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 10.7,
+  "longest_still_s": 20.5,
+  "still_cmd_share": null,
+  "amcl_err_med": 9.45,
+  "amcl_err_max": 11.27
+ },
+ {
+  "seed": "20260723018",
+  "file": "missions_20260723018_20261014_182634.csv",
+  "params_md5": "b7f0bb38",
+  "status": "CAGE",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 6.75,
+   "adjacent-y": 8.51,
+   "diagonal": 10.2,
+   "home": 1.3
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": false,
+   "adjacent-y": false,
+   "diagonal": false,
+   "home": true
+  },
+  "rtf": 0.48,
+  "path_m": 4.2,
+  "longest_still_s": 15.8,
+  "still_cmd_share": null,
+  "amcl_err_med": 5.72,
+  "amcl_err_max": 7.82
+ },
+ {
+  "seed": "20260723019",
+  "file": "missions_20260723019_20261014_185640.csv",
+  "params_md5": "b7f0bb38",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "TIMEOUT",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.23,
+   "adjacent-y": 10.97,
+   "diagonal": 3.3,
+   "home": 7.49
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 23.9,
+  "longest_still_s": 94.6,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "smoother": 0.98,
+   "monitor": 0.89
+  },
+  "amcl_err_med": 0.68,
+  "amcl_err_max": 11.97
+ },
+ {
+  "seed": "20260723020",
+  "file": "missions_20260723020_20261014_192500.csv",
+  "params_md5": "b7f0bb38",
+  "status": "CAGE",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 7.16,
+   "adjacent-y": 7.48,
+   "diagonal": 7.02,
+   "home": 0.41
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": false,
+   "adjacent-y": false,
+   "diagonal": false,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 5.0,
+  "longest_still_s": 18.6,
+  "still_cmd_share": null,
+  "amcl_err_med": 2.53,
+  "amcl_err_max": 5.69
+ },
+ {
+  "seed": "20260723021",
+  "file": "missions_20260723021_20261014_195351.csv",
+  "params_md5": "b7f0bb38",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 14.5,
+   "adjacent-y": 5.61,
+   "diagonal": 12.65,
+   "home": 7.54
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 10.5,
+  "longest_still_s": 215.9,
+  "still_cmd_share": {
+   "controller": 0.91,
+   "monitor": 0.56,
+   "smoother": 0.84
+  },
+  "amcl_err_med": 0.17,
+  "amcl_err_max": 2.77
+ },
+ {
+  "seed": "20260723022",
+  "file": "missions_20260723022_20261014_203303.csv",
+  "params_md5": "b7f0bb38",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "SUCCEEDED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.25,
+   "adjacent-y": 14.77,
+   "diagonal": 0.19,
+   "home": 9.48
+  },
+  "real_succ": 2,
+  "strict_succ": 2,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.45,
+  "path_m": 22.4,
+  "longest_still_s": 253.1,
+  "still_cmd_share": {
+   "smoother": 0.99,
+   "monitor": 0.91,
+   "controller": 0.99
+  },
+  "amcl_err_med": 0.11,
+  "amcl_err_max": 5.22
+ },
+ {
+  "seed": "20260723023",
+  "file": "missions_20260723023_20261014_210059.csv",
+  "params_md5": "b7f0bb38",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 8.03,
+   "adjacent-y": 6.82,
+   "diagonal": 4.4,
+   "home": 5.45
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 7.8,
+  "longest_still_s": 600.6,
+  "still_cmd_share": {
+   "smoother": 0.98,
+   "monitor": 0.9,
+   "controller": 0.99
+  },
+  "amcl_err_med": 0.41,
+  "amcl_err_max": 8.86
+ },
+ {
+  "seed": "20260723024",
+  "file": "missions_20260723024_20261014_215953.csv",
+  "params_md5": "b7f0bb38",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 2.92,
+   "adjacent-y": 12.15,
+   "diagonal": 9.72,
+   "home": 3.84
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.48,
+  "path_m": 5.4,
+  "longest_still_s": 731.2,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "smoother": 0.01,
+   "monitor": 0.76
+  },
+  "amcl_err_med": 1.13,
+  "amcl_err_max": 7.52
+ },
+ {
+  "seed": "20260723025",
+  "file": "missions_20260723025_20261014_224754.csv",
+  "params_md5": "b7f0bb38",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 8.81,
+   "adjacent-y": 6.2,
+   "diagonal": 9.27,
+   "home": 1.67
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 6.4,
+  "longest_still_s": 31.7,
+  "still_cmd_share": {
+   "smoother": 0.33,
+   "monitor": 0.72,
+   "controller": 0.93
+  },
+  "amcl_err_med": 6.63,
+  "amcl_err_max": 9.34
+ }
+]

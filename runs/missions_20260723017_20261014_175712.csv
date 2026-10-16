@@ -1,0 +1,9 @@
+mission,goal_x,goal_y,attempt,result,wall_s,epoch_start,epoch_end,sim_start,sim_end,config,map,params_md5
+adjacent-x,-6.13,2.81,1,ABORTED,126.4,1791989832.9,1791989959.7,17.43,74.93,nav2_params_v9,slam,b7f0bb38
+adjacent-x,-6.13,2.81,2,ABORTED,34.2,1791989981.5,1791990015.7,84.93,101.03,nav2_params_v9,slam,b7f0bb38
+adjacent-y,2.67,-6.67,1,ABORTED,29.3,1791990018.7,1791990048.0,102.53,115.93,nav2_params_v9,slam,b7f0bb38
+adjacent-y,2.67,-6.67,2,ABORTED,56.5,1791990070.3,1791990126.9,125.93,151.93,nav2_params_v9,slam,b7f0bb38
+diagonal,-7.03,-7.19,1,ABORTED,45.8,1791990130.0,1791990175.8,153.33,174.63,nav2_params_v9,slam,b7f0bb38
+diagonal,-7.03,-7.19,2,ABORTED,43.7,1791990198.0,1791990241.7,184.63,205.13,nav2_params_v9,slam,b7f0bb38
+home,0.00,0.00,1,ABORTED,38.3,1791990244.8,1791990283.2,206.53,223.63,nav2_params_v9,slam,b7f0bb38
+home,0.00,0.00,2,ABORTED,29.8,1791990303.3,1791990333.1,233.63,247.03,nav2_params_v9,slam,b7f0bb38

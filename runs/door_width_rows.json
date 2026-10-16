@@ -1,0 +1,323 @@
+{
+ "bins": [
+  {
+   "lo": 0.5,
+   "hi": 0.6,
+   "doors": 17,
+   "approached": 6,
+   "crossed": 1,
+   "crossings": 2
+  },
+  {
+   "lo": 0.6,
+   "hi": 0.66,
+   "doors": 6,
+   "approached": 1,
+   "crossed": 1,
+   "crossings": 1
+  },
+  {
+   "lo": 0.66,
+   "hi": 0.72,
+   "doors": 15,
+   "approached": 8,
+   "crossed": 5,
+   "crossings": 9
+  },
+  {
+   "lo": 0.72,
+   "hi": 0.8,
+   "doors": 25,
+   "approached": 9,
+   "crossed": 5,
+   "crossings": 8
+  },
+  {
+   "lo": 0.8,
+   "hi": 0.95,
+   "doors": 37,
+   "approached": 14,
+   "crossed": 12,
+   "crossings": 16
+  }
+ ],
+ "hours": 4.545194444444446,
+ "km": 3.70088131993649,
+ "crossings": 36,
+ "doors": 100,
+ "approached": 38,
+ "approached_doors": [
+  {
+   "seed": "20260723001",
+   "door": "door_N_H",
+   "width": 0.67,
+   "approaches": 1,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723002",
+   "door": "door_S_A",
+   "width": 0.89,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723002",
+   "door": "door_N_H",
+   "width": 0.69,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723002",
+   "door": "door_W_H",
+   "width": 0.62,
+   "approaches": 2,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723002",
+   "door": "door_E_A",
+   "width": 0.87,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723003",
+   "door": "door_E_A",
+   "width": 0.79,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723004",
+   "door": "door_N_A",
+   "width": 0.83,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723004",
+   "door": "door_W_H",
+   "width": 0.7,
+   "approaches": 2,
+   "crossings": 2
+  },
+  {
+   "seed": "20260723005",
+   "door": "door_N_H",
+   "width": 0.56,
+   "approaches": 1,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723005",
+   "door": "door_W_A",
+   "width": 0.91,
+   "approaches": 3,
+   "crossings": 3
+  },
+  {
+   "seed": "20260723006",
+   "door": "door_S_A",
+   "width": 0.8,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723006",
+   "door": "door_N_H",
+   "width": 0.77,
+   "approaches": 1,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723006",
+   "door": "door_W_H",
+   "width": 0.7,
+   "approaches": 4,
+   "crossings": 4
+  },
+  {
+   "seed": "20260723006",
+   "door": "door_E_A",
+   "width": 0.88,
+   "approaches": 1,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723007",
+   "door": "door_W_A",
+   "width": 0.86,
+   "approaches": 3,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723008",
+   "door": "door_S_H",
+   "width": 0.78,
+   "approaches": 2,
+   "crossings": 2
+  },
+  {
+   "seed": "20260723008",
+   "door": "door_N_A",
+   "width": 0.91,
+   "approaches": 2,
+   "crossings": 2
+  },
+  {
+   "seed": "20260723008",
+   "door": "door_W_A",
+   "width": 0.84,
+   "approaches": 2,
+   "crossings": 2
+  },
+  {
+   "seed": "20260723010",
+   "door": "door_N_H",
+   "width": 0.68,
+   "approaches": 3,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723012",
+   "door": "door_N_A",
+   "width": 0.75,
+   "approaches": 1,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723013",
+   "door": "door_S_H",
+   "width": 0.57,
+   "approaches": 3,
+   "crossings": 2
+  },
+  {
+   "seed": "20260723013",
+   "door": "door_N_A",
+   "width": 0.74,
+   "approaches": 1,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723013",
+   "door": "door_W_H",
+   "width": 0.73,
+   "approaches": 3,
+   "crossings": 3
+  },
+  {
+   "seed": "20260723014",
+   "door": "door_S_H",
+   "width": 0.56,
+   "approaches": 3,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723014",
+   "door": "door_N_A",
+   "width": 0.84,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723014",
+   "door": "door_W_A",
+   "width": 0.94,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723015",
+   "door": "door_S_H",
+   "width": 0.53,
+   "approaches": 26,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723015",
+   "door": "door_N_A",
+   "width": 0.94,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723015",
+   "door": "door_E_H",
+   "width": 0.68,
+   "approaches": 3,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723019",
+   "door": "door_S_H",
+   "width": 0.56,
+   "approaches": 6,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723019",
+   "door": "door_N_A",
+   "width": 0.74,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723019",
+   "door": "door_E_A",
+   "width": 0.77,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723020",
+   "door": "door_E_H",
+   "width": 0.66,
+   "approaches": 1,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723021",
+   "door": "door_W_A",
+   "width": 0.91,
+   "approaches": 3,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723022",
+   "door": "door_S_A",
+   "width": 0.95,
+   "approaches": 1,
+   "crossings": 1
+  },
+  {
+   "seed": "20260723022",
+   "door": "door_W_H",
+   "width": 0.57,
+   "approaches": 2,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723023",
+   "door": "door_W_H",
+   "width": 0.77,
+   "approaches": 1,
+   "crossings": 0
+  },
+  {
+   "seed": "20260723025",
+   "door": "door_S_H",
+   "width": 0.69,
+   "approaches": 1,
+   "crossings": 1
+  }
+ ],
+ "narrowest_crossed": {
+  "seed": "20260723013",
+  "door": "door_S_H",
+  "width": 0.57,
+  "crossings": 2
+ }
+}

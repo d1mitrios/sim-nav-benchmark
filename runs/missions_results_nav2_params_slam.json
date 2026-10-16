@@ -1,0 +1,907 @@
+[
+ {
+  "seed": "20260723001",
+  "file": "missions_20260723001_20261014_025352.csv",
+  "params_md5": "9f696af1",
+  "status": "OK",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "SUCCEEDED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.3,
+   "adjacent-y": 0.31,
+   "diagonal": 0.19,
+   "home": 0.3
+  },
+  "real_succ": 4,
+  "strict_succ": 4,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 72.8,
+  "longest_still_s": 27.8,
+  "still_cmd_share": null,
+  "amcl_err_med": 0.09,
+  "amcl_err_max": 0.17
+ },
+ {
+  "seed": "20260723002",
+  "file": "missions_20260723002_20261014_031301.csv",
+  "params_md5": "9f696af1",
+  "status": "OK",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "SUCCEEDED",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.18,
+   "adjacent-y": 0.39,
+   "diagonal": 0.21,
+   "home": 8.75
+  },
+  "real_succ": 3,
+  "strict_succ": 3,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 53.1,
+  "longest_still_s": 111.2,
+  "still_cmd_share": {
+   "smoother": 1.0,
+   "monitor": 1.0,
+   "controller": 1.0
+  },
+  "amcl_err_med": 0.28,
+  "amcl_err_max": 4.56
+ },
+ {
+  "seed": "20260723003",
+  "file": "missions_20260723003_20261014_033435.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "ABORTED",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.14,
+   "adjacent-y": 0.16,
+   "diagonal": 8.91,
+   "home": 6.97
+  },
+  "real_succ": 2,
+  "strict_succ": 2,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 72.6,
+  "longest_still_s": 235.3,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "smoother": 1.0,
+   "monitor": 1.0
+  },
+  "amcl_err_med": 0.12,
+  "amcl_err_max": 1.49
+ },
+ {
+  "seed": "20260723004",
+  "file": "missions_20260723004_20261014_041430.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.26,
+   "adjacent-y": 10.32,
+   "diagonal": 0.68,
+   "home": 6.47
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 41.6,
+  "longest_still_s": 121.6,
+  "still_cmd_share": {
+   "monitor": 0.99,
+   "controller": 0.99,
+   "smoother": 0.99
+  },
+  "amcl_err_med": 2.61,
+  "amcl_err_max": 7.05
+ },
+ {
+  "seed": "20260723005",
+  "file": "missions_20260723005_20261014_050732.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "TIMEOUT",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 11.29,
+   "adjacent-y": 0.15,
+   "diagonal": 2.47,
+   "home": 0.2
+  },
+  "real_succ": 2,
+  "strict_succ": 2,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.51,
+  "path_m": 44.2,
+  "longest_still_s": 117.7,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "smoother": 0.99,
+   "monitor": 0.99
+  },
+  "amcl_err_med": 0.18,
+  "amcl_err_max": 2.67
+ },
+ {
+  "seed": "20260723006",
+  "file": "missions_20260723006_20261014_053427.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 3.57,
+   "adjacent-y": 10.49,
+   "diagonal": 3.78,
+   "home": 0.2
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 37.5,
+  "longest_still_s": 111.2,
+  "still_cmd_share": {
+   "smoother": 0.99,
+   "controller": 0.99,
+   "monitor": 0.99
+  },
+  "amcl_err_med": 0.34,
+  "amcl_err_max": 1.36
+ },
+ {
+  "seed": "20260723007",
+  "file": "missions_20260723007_20261014_061513.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.1,
+   "adjacent-y": 7.92,
+   "diagonal": 3.35,
+   "home": 7.79
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 40.4,
+  "longest_still_s": 149.2,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "smoother": 0.99,
+   "monitor": 0.99
+  },
+  "amcl_err_med": 0.57,
+  "amcl_err_max": 5.78
+ },
+ {
+  "seed": "20260723008",
+  "file": "missions_20260723008_20261014_121854.csv",
+  "params_md5": "9f696af1",
+  "status": "OK",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "SUCCEEDED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.13,
+   "adjacent-y": 0.31,
+   "diagonal": 0.11,
+   "home": 0.26
+  },
+  "real_succ": 4,
+  "strict_succ": 4,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.45,
+  "path_m": 75.3,
+  "longest_still_s": 27.8,
+  "still_cmd_share": null,
+  "amcl_err_med": 0.11,
+  "amcl_err_max": 0.86
+ },
+ {
+  "seed": "20260723009",
+  "file": "missions_20260723009_20261014_124039.csv",
+  "params_md5": "9f696af1",
+  "status": "FAIL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 13.04,
+   "adjacent-y": 12.26,
+   "diagonal": 3.27,
+   "home": 9.62
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 55.5,
+  "longest_still_s": 160.2,
+  "still_cmd_share": {
+   "smoother": 0.99,
+   "monitor": 0.99,
+   "controller": 0.99
+  },
+  "amcl_err_med": 6.26,
+  "amcl_err_max": 11.74
+ },
+ {
+  "seed": "20260723010",
+  "file": "missions_20260723010_20261014_134817.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.22,
+   "adjacent-y": 12.5,
+   "diagonal": 7.69,
+   "home": 8.26
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.45,
+  "path_m": 53.3,
+  "longest_still_s": 194.1,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "smoother": 0.99,
+   "monitor": 0.99
+  },
+  "amcl_err_med": 6.23,
+  "amcl_err_max": 6.3
+ },
+ {
+  "seed": "20260723011",
+  "file": "missions_20260723011_20261014_141619.csv",
+  "params_md5": "9f696af1",
+  "status": "CAGE",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "ABORTED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 8.18,
+   "adjacent-y": 7.46,
+   "diagonal": 9.79,
+   "home": 0.34
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": false,
+   "adjacent-y": false,
+   "diagonal": false,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 4.2,
+  "longest_still_s": 12.9,
+  "still_cmd_share": null,
+  "amcl_err_med": 0.02,
+  "amcl_err_max": 0.05
+ },
+ {
+  "seed": "20260723012",
+  "file": "missions_20260723012_20261014_142646.csv",
+  "params_md5": "9f696af1",
+  "status": "FALSE_ARRIVAL",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "ABORTED",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 4.22,
+   "adjacent-y": 9.31,
+   "diagonal": 16.89,
+   "home": 8.98
+  },
+  "real_succ": 0,
+  "strict_succ": 0,
+  "fake_succ": 1,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 51.9,
+  "longest_still_s": 112.0,
+  "still_cmd_share": {
+   "monitor": 0.99,
+   "controller": 0.99,
+   "smoother": 0.99
+  },
+  "amcl_err_med": 4.05,
+  "amcl_err_max": 14.42
+ },
+ {
+  "seed": "20260723013",
+  "file": "missions_20260723013_20261014_152859.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.27,
+   "adjacent-y": 7.79,
+   "diagonal": 3.28,
+   "home": 6.23
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 50.4,
+  "longest_still_s": 111.0,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "monitor": 0.99,
+   "smoother": 0.99
+  },
+  "amcl_err_med": 1.07,
+  "amcl_err_max": 4.92
+ },
+ {
+  "seed": "20260723014",
+  "file": "missions_20260723014_20261014_162302.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "ABORTED",
+   "diagonal": "SUCCEEDED",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.04,
+   "adjacent-y": 14.44,
+   "diagonal": 0.25,
+   "home": 8.36
+  },
+  "real_succ": 2,
+  "strict_succ": 2,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": false,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.44,
+  "path_m": 74.9,
+  "longest_still_s": 15.0,
+  "still_cmd_share": null,
+  "amcl_err_med": 0.15,
+  "amcl_err_max": 3.99
+ },
+ {
+  "seed": "20260723015",
+  "file": "missions_20260723015_20261014_165003.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "ABORTED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "SUCCEEDED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 3.35,
+   "adjacent-y": 5.49,
+   "diagonal": 0.15,
+   "home": 5.01
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 61.6,
+  "longest_still_s": 116.8,
+  "still_cmd_share": {
+   "controller": 0.95,
+   "smoother": 0.94,
+   "monitor": 0.95
+  },
+  "amcl_err_med": 0.1,
+  "amcl_err_max": 0.9
+ },
+ {
+  "seed": "20260723016",
+  "file": "missions_20260723016_20261014_172340.csv",
+  "params_md5": "9f696af1",
+  "status": "OK",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "SUCCEEDED",
+   "home": "ABORTED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.2,
+   "adjacent-y": 0.29,
+   "diagonal": 0.45,
+   "home": 5.05
+  },
+  "real_succ": 3,
+  "strict_succ": 3,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.48,
+  "path_m": 55.2,
+  "longest_still_s": 20.6,
+  "still_cmd_share": null,
+  "amcl_err_med": 0.13,
+  "amcl_err_max": 1.33
+ },
+ {
+  "seed": "20260723017",
+  "file": "missions_20260723017_20261014_174504.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "ABORTED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 2.76,
+   "adjacent-y": 0.2,
+   "diagonal": 9.86,
+   "home": 0.27
+  },
+  "real_succ": 2,
+  "strict_succ": 2,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": false,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 34.3,
+  "longest_still_s": 47.1,
+  "still_cmd_share": {
+   "smoother": 0.98,
+   "monitor": 0.98,
+   "controller": 0.99
+  },
+  "amcl_err_med": 0.07,
+  "amcl_err_max": 0.17
+ },
+ {
+  "seed": "20260723018",
+  "file": "missions_20260723018_20261014_180603.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "TIMEOUT",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 10.62,
+   "adjacent-y": 0.06,
+   "diagonal": 7.03,
+   "home": 0.26
+  },
+  "real_succ": 2,
+  "strict_succ": 2,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 65.6,
+  "longest_still_s": 117.8,
+  "still_cmd_share": {
+   "monitor": 0.98,
+   "controller": 0.99,
+   "smoother": 0.98
+  },
+  "amcl_err_med": 0.08,
+  "amcl_err_max": 0.7
+ },
+ {
+  "seed": "20260723019",
+  "file": "missions_20260723019_20261014_183351.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.16,
+   "adjacent-y": 0.02,
+   "diagonal": 9.27,
+   "home": 5.28
+  },
+  "real_succ": 2,
+  "strict_succ": 2,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 45.4,
+  "longest_still_s": 119.9,
+  "still_cmd_share": {
+   "controller": 0.99,
+   "smoother": 1.0,
+   "monitor": 1.0
+  },
+  "amcl_err_med": 0.16,
+  "amcl_err_max": 1.26
+ },
+ {
+  "seed": "20260723020",
+  "file": "missions_20260723020_20261014_190720.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "SUCCEEDED",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 14.69,
+   "adjacent-y": 0.29,
+   "diagonal": 0.15,
+   "home": 6.5
+  },
+  "real_succ": 2,
+  "strict_succ": 2,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.43,
+  "path_m": 62.3,
+  "longest_still_s": 34.5,
+  "still_cmd_share": {
+   "controller": 0.9,
+   "smoother": 0.91,
+   "monitor": 0.92
+  },
+  "amcl_err_med": 0.16,
+  "amcl_err_max": 6.61
+ },
+ {
+  "seed": "20260723021",
+  "file": "missions_20260723021_20261014_193153.csv",
+  "params_md5": "9f696af1",
+  "status": "OK",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "SUCCEEDED",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 13.92,
+   "adjacent-y": 0.07,
+   "diagonal": 0.36,
+   "home": 0.2
+  },
+  "real_succ": 3,
+  "strict_succ": 3,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.45,
+  "path_m": 65.7,
+  "longest_still_s": 124.9,
+  "still_cmd_share": {
+   "smoother": 0.99,
+   "monitor": 0.99,
+   "controller": 0.99
+  },
+  "amcl_err_med": 0.17,
+  "amcl_err_max": 0.62
+ },
+ {
+  "seed": "20260723022",
+  "file": "missions_20260723022_20261014_200407.csv",
+  "params_md5": "9f696af1",
+  "status": "WEDGED",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.23,
+   "adjacent-y": 5.05,
+   "diagonal": 12.21,
+   "home": 5.0
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 52.6,
+  "longest_still_s": 166.2,
+  "still_cmd_share": {
+   "smoother": 0.92,
+   "monitor": 0.92,
+   "controller": 0.9
+  },
+  "amcl_err_med": 0.08,
+  "amcl_err_max": 2.35
+ },
+ {
+  "seed": "20260723023",
+  "file": "missions_20260723023_20261014_204722.csv",
+  "params_md5": "9f696af1",
+  "status": "OK",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "SUCCEEDED",
+   "diagonal": "TIMEOUT",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 0.09,
+   "adjacent-y": 0.27,
+   "diagonal": 7.23,
+   "home": 0.2
+  },
+  "real_succ": 3,
+  "strict_succ": 3,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.47,
+  "path_m": 41.3,
+  "longest_still_s": 203.2,
+  "still_cmd_share": {
+   "smoother": 0.99,
+   "monitor": 0.99,
+   "controller": 0.99
+  },
+  "amcl_err_med": 0.13,
+  "amcl_err_max": 1.15
+ },
+ {
+  "seed": "20260723024",
+  "file": "missions_20260723024_20261014_213225.csv",
+  "params_md5": "9f696af1",
+  "status": "PARTIAL",
+  "final": {
+   "adjacent-x": "TIMEOUT",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "TIMEOUT",
+   "home": "SUCCEEDED"
+  },
+  "true_dist": {
+   "adjacent-x": 2.9,
+   "adjacent-y": 12.06,
+   "diagonal": 9.64,
+   "home": 0.26
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 0,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.48,
+  "path_m": 18.6,
+  "longest_still_s": 325.8,
+  "still_cmd_share": {
+   "smoother": 0.98,
+   "monitor": 0.99,
+   "controller": 0.99
+  },
+  "amcl_err_med": 0.03,
+  "amcl_err_max": 0.07
+ },
+ {
+  "seed": "20260723025",
+  "file": "missions_20260723025_20261014_222754.csv",
+  "params_md5": "9f696af1",
+  "status": "FALSE_ARRIVAL",
+  "final": {
+   "adjacent-x": "SUCCEEDED",
+   "adjacent-y": "TIMEOUT",
+   "diagonal": "SUCCEEDED",
+   "home": "TIMEOUT"
+  },
+  "true_dist": {
+   "adjacent-x": 0.39,
+   "adjacent-y": 8.24,
+   "diagonal": 1.98,
+   "home": 13.33
+  },
+  "real_succ": 1,
+  "strict_succ": 1,
+  "fake_succ": 1,
+  "feasible": {
+   "adjacent-x": true,
+   "adjacent-y": true,
+   "diagonal": true,
+   "home": true
+  },
+  "rtf": 0.46,
+  "path_m": 59.8,
+  "longest_still_s": 113.0,
+  "still_cmd_share": {
+   "smoother": 1.0,
+   "monitor": 1.0,
+   "controller": 1.0
+  },
+  "amcl_err_med": 1.68,
+  "amcl_err_max": 8.49
+ }
+]

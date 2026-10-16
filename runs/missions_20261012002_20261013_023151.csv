@@ -1,0 +1,7 @@
+mission,goal_x,goal_y,attempt,result,wall_s,epoch_start,epoch_end,sim_start,sim_end,config,map
+adjacent-x,5.77,4.11,1,SUCCEEDED,72.0,1791847911.5,1791847983.8,14.40,45.20,nav2_params,truth
+adjacent-y,-3.77,-6.67,1,ABORTED,43.4,1791847986.9,1791848030.3,46.40,62.60,nav2_params,truth
+adjacent-y,-3.77,-6.67,2,ABORTED,89.6,1791848052.9,1791848142.5,72.70,110.50,nav2_params,truth
+diagonal,5.97,-6.51,1,ABORTED,74.1,1791848145.6,1791848219.7,111.70,141.50,nav2_params,truth
+diagonal,5.97,-6.51,2,ABORTED,49.5,1791848245.6,1791848295.1,151.50,172.20,nav2_params,truth
+home,0.00,0.00,1,SUCCEEDED,172.1,1791848298.3,1791848470.4,173.60,246.10,nav2_params,truth

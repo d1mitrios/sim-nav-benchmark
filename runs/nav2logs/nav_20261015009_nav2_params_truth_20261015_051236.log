@@ -1,0 +1,837 @@
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2026-10-15-05-12-47-208443-host-5019
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [component_container_isolated-1]: process started with pid [5077]
+[component_container_isolated-1] [INFO] [1792030368.292740761] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libmap_server_core.so
+[component_container_isolated-1] [INFO] [1792030368.310586417] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::CostmapFilterInfoServer>
+[component_container_isolated-1] [INFO] [1792030368.310676995] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapSaver>
+[component_container_isolated-1] [INFO] [1792030368.310683286] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[component_container_isolated-1] [INFO] [1792030368.310687699] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[component_container_isolated-1] [INFO] [1792030368.330440190] [map_server]: 
+[component_container_isolated-1] 	map_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.330586531] [map_server]: Creating
+[component_container_isolated-1] [INFO] [1792030368.331750148] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libamcl_core.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.337242416] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-1] [INFO] [1792030368.337328667] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-1] [INFO] [1792030368.356500410] [amcl]: 
+[component_container_isolated-1] 	amcl lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.356928906] [amcl]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/amcl' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.364461199] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libnav2_lifecycle_manager_core.so
+[component_container_isolated-1] [INFO] [1792030368.365565323] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-1] [INFO] [1792030368.365620573] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-1] [INFO] [1792030368.383697607] [lifecycle_manager_localization]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_localization' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.390130143] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.390204325] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libcontroller_server_core.so
+[component_container_isolated-1] [INFO] [1792030368.394085561] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-1] [INFO] [1792030368.394154594] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-1] [INFO] [1792030368.403088023] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.403166321] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.403407202] [map_server]: Configuring
+[component_container_isolated-1] [INFO] [1792030368.403479165] [map_io]: Loading yaml file: /mnt/c/isaac_project/runs/truth_20261015009.yaml
+[component_container_isolated-1] [INFO] [1792030368.407953951] [map_io]: resolution: 0.05
+[component_container_isolated-1] [INFO] [1792030368.408027762] [map_io]: origin[0]: -10.5
+[component_container_isolated-1] [INFO] [1792030368.408041719] [map_io]: origin[1]: -10.5
+[component_container_isolated-1] [INFO] [1792030368.408050683] [map_io]: origin[2]: 0
+[component_container_isolated-1] [INFO] [1792030368.408059690] [map_io]: free_thresh: 0.196
+[component_container_isolated-1] [INFO] [1792030368.408068435] [map_io]: occupied_thresh: 0.65
+[component_container_isolated-1] [INFO] [1792030368.408084502] [map_io]: mode: trinary
+[component_container_isolated-1] [INFO] [1792030368.408095183] [map_io]: negate: 0
+[component_container_isolated-1] [INFO] [1792030368.408340400] [map_io]: Loading image_file: /mnt/c/isaac_project/runs/truth_20261015009.pgm
+[component_container_isolated-1] [INFO] [1792030368.420027341] [controller_server]: 
+[component_container_isolated-1] 	controller_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.424485524] [map_io]: Read map /mnt/c/isaac_project/runs/truth_20261015009.pgm: 420 X 420 map @ 0.05 m/cell
+[component_container_isolated-1] [INFO] [1792030368.424898625] [controller_server]: Creating controller server
+[component_container_isolated-1] [INFO] [1792030368.432354569] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.432551835] [amcl]: Configuring
+[component_container_isolated-1] [INFO] [1792030368.432658837] [amcl]: initTransforms
+[component_container_isolated-1] [INFO] [1792030368.447859007] [amcl]: initPubSub
+[component_container_isolated-1] [INFO] [1792030368.457777808] [amcl]: Subscribed to map topic.
+[component_container_isolated-1] [INFO] [1792030368.465991423] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.466264364] [map_server]: Activating
+[component_container_isolated-1] [INFO] [1792030368.466615534] [map_server]: Creating bond (map_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030368.466850556] [amcl]: Received a 420 X 420 map @ 0.050 m/pix
+[component_container_isolated-1] [INFO] [1792030368.466958953] [local_costmap.local_costmap]: 
+[component_container_isolated-1] 	local_costmap lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.467503627] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/controller_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.475557243] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libsmoother_server_core.so
+[component_container_isolated-1] [INFO] [1792030368.477816616] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-1] [INFO] [1792030368.477889962] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-1] [INFO] [1792030368.501210258] [smoother_server]: 
+[component_container_isolated-1] 	smoother_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.502452050] [smoother_server]: Creating smoother server
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/smoother_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.506403749] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libplanner_server_core.so
+[component_container_isolated-1] [INFO] [1792030368.507641701] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-1] [INFO] [1792030368.507700167] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-1] [INFO] [1792030368.532793776] [planner_server]: 
+[component_container_isolated-1] 	planner_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.534187949] [planner_server]: Creating
+[component_container_isolated-1] [INFO] [1792030368.561636112] [global_costmap.global_costmap]: 
+[component_container_isolated-1] 	global_costmap lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.562747726] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planner_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.572850634] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libroute_server_core.so
+[component_container_isolated-1] [INFO] [1792030368.573236471] [lifecycle_manager_localization]: Server map_server connected with bond.
+[component_container_isolated-1] [INFO] [1792030368.573267999] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.573471790] [amcl]: Activating
+[component_container_isolated-1] [INFO] [1792030368.573508207] [amcl]: initialPoseReceived
+[component_container_isolated-1] [INFO] [1792030368.573604624] [amcl]: Setting pose (1792030368.573605): -0.100 0.000 0.000
+[component_container_isolated-1] [INFO] [1792030368.574385946] [amcl]: Creating bond (amcl) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030368.575011972] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_route::RouteServer>
+[component_container_isolated-1] [INFO] [1792030368.575056143] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_route::RouteServer>
+[component_container_isolated-1] [INFO] [1792030368.606937594] [route_server]: 
+[component_container_isolated-1] 	route_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/route_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.609667713] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libbehavior_server_core.so
+[component_container_isolated-1] [INFO] [1792030368.610893622] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-1] [INFO] [1792030368.610944889] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-1] [INFO] [1792030368.638945759] [behavior_server]: 
+[component_container_isolated-1] 	behavior_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/behavior_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.645979817] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libbt_navigator_core.so
+[component_container_isolated-1] [INFO] [1792030368.649912107] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[component_container_isolated-1] [INFO] [1792030368.649963187] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[component_container_isolated-1] [INFO] [1792030368.676500921] [bt_navigator]: 
+[component_container_isolated-1] 	bt_navigator lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.677913171] [bt_navigator]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/bt_navigator' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.680583530] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libwaypoint_follower_core.so
+[component_container_isolated-1] [INFO] [1792030368.681983660] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-1] [INFO] [1792030368.682035452] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-1] [INFO] [1792030368.685231403] [lifecycle_manager_localization]: Server amcl connected with bond.
+[component_container_isolated-1] [INFO] [1792030368.685285379] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.685300766] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.707629592] [waypoint_follower]: 
+[component_container_isolated-1] 	waypoint_follower lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.708050945] [waypoint_follower]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/waypoint_follower' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.712615521] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libvelocity_smoother_core.so
+[component_container_isolated-1] [INFO] [1792030368.714698032] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[component_container_isolated-1] [INFO] [1792030368.714752583] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[component_container_isolated-1] [INFO] [1792030368.727190336] [amcl]: createLaserObject
+[component_container_isolated-1] [INFO] [1792030368.748107892] [velocity_smoother]: 
+[component_container_isolated-1] 	velocity_smoother lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/velocity_smoother' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.750930349] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libcollision_monitor_core.so
+[component_container_isolated-1] [INFO] [1792030368.755787298] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_collision_monitor::CollisionMonitor>
+[component_container_isolated-1] [INFO] [1792030368.755858317] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_collision_monitor::CollisionMonitor>
+[component_container_isolated-1] [INFO] [1792030368.787152333] [collision_monitor]: 
+[component_container_isolated-1] 	collision_monitor lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/collision_monitor' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.790534159] [nav2_container]: Load Library: /opt/ros/jazzy/lib/libopennav_docking_core.so
+[component_container_isolated-1] [INFO] [1792030368.792697439] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<opennav_docking::DockingServer>
+[component_container_isolated-1] [INFO] [1792030368.792754931] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<opennav_docking::DockingServer>
+[component_container_isolated-1] [INFO] [1792030368.828498604] [docking_server]: 
+[component_container_isolated-1] 	docking_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1792030368.828611807] [docking_server]: Creating docking_server
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/docking_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.837038875] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-1] [INFO] [1792030368.837072490] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-1] [INFO] [1792030368.860680666] [lifecycle_manager_navigation]: Creating
+[component_container_isolated-1] [INFO] [1792030368.866319318] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_navigation' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1792030368.904698163] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.904816857] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030368.905125071] [controller_server]: Configuring controller interface
+[component_container_isolated-1] [INFO] [1792030368.905170449] [controller_server]: getting progress checker plugins..
+[component_container_isolated-1] [INFO] [1792030368.906049860] [controller_server]: getting goal checker plugins..
+[component_container_isolated-1] [INFO] [1792030368.906754704] [controller_server]: Controller frequency set to 10.0000Hz
+[component_container_isolated-1] [INFO] [1792030368.906897452] [local_costmap.local_costmap]: Configuring
+[component_container_isolated-1] [INFO] [1792030368.919447410] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[component_container_isolated-1] [INFO] [1792030368.925740566] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[component_container_isolated-1] [INFO] [1792030368.935173010] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[component_container_isolated-1] [INFO] [1792030368.935235603] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-1] [INFO] [1792030368.937877725] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-1] [INFO] [1792030368.966079645] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[component_container_isolated-1] [INFO] [1792030368.967260867] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[component_container_isolated-1] [INFO] [1792030368.968187569] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[component_container_isolated-1] [INFO] [1792030368.970259201] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[component_container_isolated-1] [INFO] [1792030368.973346510] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[component_container_isolated-1] [INFO] [1792030368.978736727] [controller_server]: Setting transform_tolerance to 0.400000
+[component_container_isolated-1] [INFO] [1792030369.008811912] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[component_container_isolated-1] [INFO] [1792030369.011310733] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1792030369.011874564] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[component_container_isolated-1] [INFO] [1792030369.014250088] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1792030369.014793763] [controller_server]: Using critic "ObstacleFootprint" (dwb_critics::ObstacleFootprintCritic)
+[component_container_isolated-1] [INFO] [1792030369.015773645] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1792030369.016358875] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[component_container_isolated-1] [INFO] [1792030369.018025478] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1792030369.018543133] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[component_container_isolated-1] [INFO] [1792030369.020158275] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1792030369.020680997] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[component_container_isolated-1] [INFO] [1792030369.022314644] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1792030369.023031290] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[component_container_isolated-1] [INFO] [1792030369.024486143] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1792030369.024545092] [controller_server]: Controller Server has FollowPath  controllers available.
+[component_container_isolated-1] [INFO] [1792030369.043417125] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.043686815] [smoother_server]: Configuring smoother server
+[component_container_isolated-1] [INFO] [1792030369.055908978] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[component_container_isolated-1] [INFO] [1792030369.058842117] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[component_container_isolated-1] [INFO] [1792030369.068651445] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.068908924] [planner_server]: Configuring
+[component_container_isolated-1] [INFO] [1792030369.068954760] [global_costmap.global_costmap]: Configuring
+[component_container_isolated-1] [INFO] [1792030369.082086068] [global_costmap.global_costmap]: Using plugin "static_layer"
+[component_container_isolated-1] [INFO] [1792030369.087432979] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[component_container_isolated-1] [INFO] [1792030369.089433260] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[component_container_isolated-1] [INFO] [1792030369.089492151] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-1] [INFO] [1792030369.092660615] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-1] [INFO] [1792030369.120890140] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner::NavfnPlanner
+[component_container_isolated-1] [INFO] [1792030369.120970091] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[component_container_isolated-1] [INFO] [1792030369.123954256] [planner_server]: Planner Server has GridBased  planners available.
+[component_container_isolated-1] [INFO] [1792030369.142432570] [lifecycle_manager_navigation]: [34m[1mConfiguring route_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.142694972] [route_server]: Configuring
+[component_container_isolated-1] [INFO] [1792030369.159398214] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 420 at 0.050000 m/pix
+[component_container_isolated-1] [INFO] [1792030369.187546525] [route_server]: Created GraphFileLoader GeoJsonGraphFileLoader of type nav2_route::GeoJsonGraphFileLoader
+[component_container_isolated-1] [INFO] [1792030369.187620329] [route_server]: Configuring geojson graph file loader
+[component_container_isolated-1] [INFO] [1792030369.187630899] [route_server]: No graph file provided to load yet.
+[component_container_isolated-1] [INFO] [1792030369.194691590] [route_server]: Created edge cost function plugin DistanceScorer of type nav2_route::DistanceScorer
+[component_container_isolated-1] [INFO] [1792030369.194759795] [route_server]: Configuring distance scorer.
+[component_container_isolated-1] [INFO] [1792030369.195980157] [route_server]: Created edge cost function plugin DynamicEdgesScorer of type nav2_route::DynamicEdgesScorer
+[component_container_isolated-1] [INFO] [1792030369.196025121] [route_server]: Configuring adjust edges scorer.
+[component_container_isolated-1] [INFO] [1792030369.203927639] [route_server]: Created route operation AdjustSpeedLimit of type nav2_route::AdjustSpeedLimit
+[component_container_isolated-1] [INFO] [1792030369.203991492] [route_server]: Configuring Adjust speed limit operation.
+[component_container_isolated-1] [INFO] [1792030369.206682525] [route_server]: Created route operation ReroutingService of type nav2_route::ReroutingService
+[component_container_isolated-1] [INFO] [1792030369.206731364] [route_server]: Configuring Rerouting service operation.
+[component_container_isolated-1] [INFO] [1792030369.212608303] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.212884164] [behavior_server]: Configuring
+[component_container_isolated-1] [INFO] [1792030369.221178310] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[component_container_isolated-1] [INFO] [1792030369.222791740] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors::BackUp
+[component_container_isolated-1] [INFO] [1792030369.223979008] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors::DriveOnHeading
+[component_container_isolated-1] [INFO] [1792030369.225314006] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[component_container_isolated-1] [INFO] [1792030369.231403020] [behavior_server]: Configuring spin
+[component_container_isolated-1] [INFO] [1792030369.246024191] [behavior_server]: Configuring backup
+[component_container_isolated-1] [INFO] [1792030369.255962057] [behavior_server]: Configuring drive_on_heading
+[component_container_isolated-1] [INFO] [1792030369.264987642] [behavior_server]: Configuring wait
+[component_container_isolated-1] [INFO] [1792030369.275826523] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.276172432] [velocity_smoother]: Configuring velocity smoother
+[component_container_isolated-1] [INFO] [1792030369.288870305] [lifecycle_manager_navigation]: [34m[1mConfiguring collision_monitor[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.289150803] [collision_monitor]: Configuring
+[component_container_isolated-1] [INFO] [1792030369.303531672] [collision_monitor]: [scan]: Creating Scan
+[component_container_isolated-1] [INFO] [1792030369.308948690] [collision_monitor]: [CircleStop]: Creating Polygon
+[component_container_isolated-1] [INFO] [1792030369.309005432] [collision_monitor]: [CircleStop]: Creating Circle
+[component_container_isolated-1] [INFO] [1792030369.323571584] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.323818991] [bt_navigator]: Configuring
+[component_container_isolated-1] [INFO] [1792030369.335888957] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator::NavigateToPoseNavigator
+[component_container_isolated-1] [WARN] [1792030369.341358761] [bt_navigator]: Error_code parameters were not set. Using default values of: follow_path_error_code compute_path_error_code
+[component_container_isolated-1] Make sure these match your BT and there are not other sources of error codes youreported to your application
+[component_container_isolated-1] [INFO] [1792030369.460041285] [bt_navigator]: Creating navigator id navigate_through_poses of type nav2_bt_navigator::NavigateThroughPosesNavigator
+[component_container_isolated-1] [INFO] [1792030369.527701693] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.528083851] [waypoint_follower]: Configuring
+[component_container_isolated-1] [INFO] [1792030369.565494912] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[component_container_isolated-1] [INFO] [1792030369.567613115] [lifecycle_manager_navigation]: [34m[1mConfiguring docking_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.567915842] [docking_server]: Configuring docking_server
+[component_container_isolated-1] [INFO] [1792030369.568015132] [docking_server]: Controller frequency set to 10.0000Hz
+[component_container_isolated-1] [INFO] [1792030369.615452714] [docking_server]: Created charging dock plugin simple_charging_dock of type opennav_docking::SimpleChargingDock
+[component_container_isolated-1] [WARN] [1792030369.630772621] [docking_server]: Dock database filepath nor dock parameters set. Docking actions can only be executed specifying the dock pose via the action request. Or update the dock database via the reload_database service.
+[component_container_isolated-1] [INFO] [1792030369.630855231] [docking_server]: Docking Server has 1 dock types and 0 dock instances available.
+[component_container_isolated-1] [INFO] [1792030369.633705076] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030369.633968220] [controller_server]: Activating
+[component_container_isolated-1] [INFO] [1792030369.634011335] [local_costmap.local_costmap]: Activating
+[component_container_isolated-1] [INFO] [1792030369.634021468] [local_costmap.local_costmap]: Checking transform
+[component_container_isolated-1] [INFO] [1792030369.634209400] [local_costmap.local_costmap]: start
+[component_container_isolated-1] [INFO] [1792030369.886983560] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030370.000545547] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[component_container_isolated-1] [INFO] [1792030370.000642368] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030370.001097059] [smoother_server]: Activating
+[component_container_isolated-1] [INFO] [1792030370.001153526] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030370.113191849] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[component_container_isolated-1] [INFO] [1792030370.113276309] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030370.113711512] [planner_server]: Activating
+[component_container_isolated-1] [INFO] [1792030370.113773581] [global_costmap.global_costmap]: Activating
+[component_container_isolated-1] [INFO] [1792030370.113784206] [global_costmap.global_costmap]: Checking transform
+[component_container_isolated-1] [INFO] [1792030370.113942917] [global_costmap.global_costmap]: start
+[component_container_isolated-1] [INFO] [1792030370.164965933] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-1] [INFO] [1792030370.168971279] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030370.281835975] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-1] [INFO] [1792030370.281915808] [lifecycle_manager_navigation]: [34m[1mActivating route_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030370.282327088] [route_server]: Activating
+[component_container_isolated-1] [INFO] [1792030370.282655485] [route_server]: Creating bond (route_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030370.397018761] [lifecycle_manager_navigation]: Server route_server connected with bond.
+[component_container_isolated-1] [INFO] [1792030370.397094377] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030370.397512649] [behavior_server]: Activating
+[component_container_isolated-1] [INFO] [1792030370.397541495] [behavior_server]: Activating spin
+[component_container_isolated-1] [INFO] [1792030370.397573697] [behavior_server]: Activating backup
+[component_container_isolated-1] [INFO] [1792030370.397585020] [behavior_server]: Activating drive_on_heading
+[component_container_isolated-1] [INFO] [1792030370.397596507] [behavior_server]: Activating wait
+[component_container_isolated-1] [INFO] [1792030370.397611817] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030370.511337346] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-1] [INFO] [1792030370.511418882] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[component_container_isolated-1] [INFO] [1792030370.511853600] [velocity_smoother]: Activating
+[component_container_isolated-1] [INFO] [1792030370.511958438] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030370.628260390] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-1] [INFO] [1792030370.628383421] [lifecycle_manager_navigation]: [34m[1mActivating collision_monitor[0m[0m
+[component_container_isolated-1] [INFO] [1792030370.628943272] [collision_monitor]: Activating
+[component_container_isolated-1] [INFO] [1792030370.629025387] [collision_monitor]: Creating bond (collision_monitor) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030370.745161689] [lifecycle_manager_navigation]: Server collision_monitor connected with bond.
+[component_container_isolated-1] [INFO] [1792030370.745253526] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[component_container_isolated-1] [INFO] [1792030370.745832842] [bt_navigator]: Activating
+[component_container_isolated-1] [INFO] [1792030370.923350284] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030371.040912856] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-1] [INFO] [1792030371.040993031] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[component_container_isolated-1] [INFO] [1792030371.041421039] [waypoint_follower]: Activating
+[component_container_isolated-1] [INFO] [1792030371.041479470] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030371.161005805] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-1] [INFO] [1792030371.161095177] [lifecycle_manager_navigation]: [34m[1mActivating docking_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030371.161596084] [docking_server]: Activating docking_server
+[component_container_isolated-1] [INFO] [1792030371.186151978] [docking_server]: Creating bond (docking_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030371.304810187] [lifecycle_manager_navigation]: Server docking_server connected with bond.
+[component_container_isolated-1] [INFO] [1792030371.304893933] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[component_container_isolated-1] [INFO] [1792030371.304903449] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[component_container_isolated-1] [INFO] [1792030375.951623501] [bt_navigator]: Begin navigating from current location (-0.00, 0.00) to (-7.21, -3.05)
+[component_container_isolated-1] [INFO] [1792030375.973333991] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030375.973421922] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[component_container_isolated-1] [WARN] [1792030375.973439095] [controller_server]: No progress checker was specified in parameter 'current_progress_checker'. Server will use only plugin loaded progress_checker . This warning will appear once.
+[component_container_isolated-1] [ERROR] [1792030375.988374054] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-1] [ERROR] [1792030375.988449612] [tf_help]: Data time: 1792030375s 953160101ns, Transform time: 1792030374s 838699700ns
+[component_container_isolated-1] [INFO] [1792030375.988465209] [controller_server]: Reached the goal!
+[component_container_isolated-1] [INFO] [1792030376.012496844] [bt_navigator]: Goal succeeded
+[component_container_isolated-1] [INFO] [1792030379.183660607] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (3.09, 6.95)
+[component_container_isolated-1] [INFO] [1792030379.205734245] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030379.224074614] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-1] [ERROR] [1792030379.224164926] [tf_help]: Data time: 1792030379s 185591006ns, Transform time: 1792030377s 949222400ns
+[component_container_isolated-1] [INFO] [1792030379.224183004] [controller_server]: Reached the goal!
+[component_container_isolated-1] [INFO] [1792030379.245144259] [bt_navigator]: Goal succeeded
+[component_container_isolated-1] [INFO] [1792030382.426942955] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (-7.51, 7.46)
+[component_container_isolated-1] [INFO] [1792030382.448410044] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030417.304167090] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030417.405545232] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030435.410711796] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030496.429804846] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [ERROR] [1792030580.860903358] [controller_server]: Failed to make progress
+[component_container_isolated-1] [WARN] [1792030580.861220266] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030580.872855629] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030580.873683554] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030580.894896635] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030580.895146928] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030580.913122687] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030580.913684580] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[component_container_isolated-1] [INFO] [1792030580.916021417] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030581.106889451] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030581.107168913] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030581.122714962] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030581.123503796] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030581.303972765] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030581.304276758] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030581.322959414] [behavior_server]: Running spin
+[component_container_isolated-1] [INFO] [1792030581.323122215] [behavior_server]: Turning 1.57 for spin behavior.
+[component_container_isolated-1] [WARN] [1792030581.624039613] [behavior_server]: Collision Ahead - Exiting Spin
+[component_container_isolated-1] [WARN] [1792030581.624108674] [behavior_server]: spin failed
+[component_container_isolated-1] [WARN] [1792030581.624128100] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030581.642745799] [behavior_server]: Running wait
+[component_container_isolated-1] [INFO] [1792030586.647166161] [behavior_server]: wait completed successfully
+[component_container_isolated-1] [INFO] [1792030586.663399068] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030586.663644898] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030586.663957664] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030586.682937717] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030586.683635939] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030586.694064817] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030586.694361041] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030586.713557610] [behavior_server]: Running backup
+[component_container_isolated-1] [WARN] [1792030586.713973655] [behavior_server]: Collision Ahead - Exiting DriveOnHeading
+[component_container_isolated-1] [WARN] [1792030586.714030850] [behavior_server]: backup failed
+[component_container_isolated-1] [WARN] [1792030586.714045682] [behavior_server]: [backup] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030586.732988316] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030586.733426669] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[component_container_isolated-1] [INFO] [1792030586.735169389] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030586.905674440] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030586.905996443] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030586.922668150] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030586.923923941] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030587.104979809] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030587.105244314] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030587.123335982] [behavior_server]: Running spin
+[component_container_isolated-1] [INFO] [1792030587.123475300] [behavior_server]: Turning 1.57 for spin behavior.
+[component_container_isolated-1] [WARN] [1792030587.524012554] [behavior_server]: Collision Ahead - Exiting Spin
+[component_container_isolated-1] [WARN] [1792030587.524073964] [behavior_server]: spin failed
+[component_container_isolated-1] [WARN] [1792030587.524085638] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030587.542649886] [behavior_server]: Running wait
+[component_container_isolated-1] [INFO] [1792030592.542946339] [behavior_server]: wait completed successfully
+[component_container_isolated-1] [INFO] [1792030592.563462417] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030592.563757559] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030592.564015636] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030592.582552936] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030592.583163326] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030592.693479108] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030592.693719228] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030592.712835017] [behavior_server]: Running backup
+[component_container_isolated-1] [WARN] [1792030592.713188066] [behavior_server]: Collision Ahead - Exiting DriveOnHeading
+[component_container_isolated-1] [WARN] [1792030592.713211371] [behavior_server]: backup failed
+[component_container_isolated-1] [WARN] [1792030592.713219555] [behavior_server]: [backup] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030592.732274537] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030592.732577689] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[component_container_isolated-1] [INFO] [1792030592.734102139] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030592.894654223] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030592.894902623] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030592.912485076] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030592.913555459] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030593.093896365] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030593.094166593] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030593.112705291] [behavior_server]: Running spin
+[component_container_isolated-1] [INFO] [1792030593.112808536] [behavior_server]: Turning 1.57 for spin behavior.
+[component_container_isolated-1] [WARN] [1792030593.613254947] [behavior_server]: Collision Ahead - Exiting Spin
+[component_container_isolated-1] [WARN] [1792030593.613316136] [behavior_server]: spin failed
+[component_container_isolated-1] [WARN] [1792030593.613327459] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030593.632559283] [behavior_server]: Running wait
+[component_container_isolated-1] [INFO] [1792030598.676921044] [behavior_server]: wait completed successfully
+[component_container_isolated-1] [INFO] [1792030598.697751339] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030598.698170088] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030598.698527897] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030598.716608870] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030598.717694342] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [ERROR] [1792030598.838220749] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-1] [WARN] [1792030598.838654588] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [WARN] [1792030598.866357386] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[component_container_isolated-1] [ERROR] [1792030598.866805528] [bt_navigator]: Goal failed
+[component_container_isolated-1] [INFO] [1792030621.212626610] [bt_navigator]: Begin navigating from current location (-4.14, 8.11) to (-7.51, 7.46)
+[component_container_isolated-1] [INFO] [1792030621.233809484] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030624.139011528] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030624.240661603] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030624.339745362] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030624.610533721] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030624.712426755] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030624.810808171] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030624.910588419] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.016422969] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.110289814] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.211778975] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.310389149] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.410690121] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.510811951] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.612962632] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.711747786] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.812454684] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030625.911579113] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.012953689] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.110754311] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.211615498] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.310729666] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.411599461] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.516697297] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.611199439] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.711026895] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.811662010] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030626.911639430] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030627.014546064] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030627.111130025] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030627.211988234] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030627.316884221] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030627.415642868] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030627.513085629] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [ERROR] [1792030627.513178260] [controller_server]: Controller patience exceeded
+[component_container_isolated-1] [WARN] [1792030627.513442013] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030627.525060585] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030627.525789197] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030627.715043319] [controller_server]: Control loop missed its desired rate of 10.0000 Hz. Current loop rate is 5.2950 Hz.
+[component_container_isolated-1] [WARN] [1792030631.322577420] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030631.424800405] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030631.523092772] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030631.625879391] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030631.721293532] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030631.821702337] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030631.921493243] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.023910988] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.122934282] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.228697090] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.323715413] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.421780192] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.521210725] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.621055937] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.729796667] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.821348281] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030632.920710634] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.027768921] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.122043549] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.227007755] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.323300492] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.425877991] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.521038297] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.626539294] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.722176736] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.828502737] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030633.921016264] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030634.028999089] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030634.121145795] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030634.228447740] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [ERROR] [1792030634.228530383] [controller_server]: Controller patience exceeded
+[component_container_isolated-1] [WARN] [1792030634.228742064] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030634.245453354] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030634.245851713] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[component_container_isolated-1] [INFO] [1792030634.247107968] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030638.054163897] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030638.162867416] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030638.260544489] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030638.353900211] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030638.454887956] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030638.553535752] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030638.660814240] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030638.755478289] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030638.853525508] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030638.960722849] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.053694832] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.164878866] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.254564444] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.353432568] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.454831620] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.560893537] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.653449785] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.755673545] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.853297491] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030639.961581606] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.059943257] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.153346729] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.257671876] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.353635610] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.453111892] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.554612947] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.653356143] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.754486267] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.860606942] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030640.954313807] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [ERROR] [1792030640.954411070] [controller_server]: Controller patience exceeded
+[component_container_isolated-1] [WARN] [1792030640.954613696] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030640.964840149] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030640.965372705] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030641.114087733] [controller_server]: Control loop missed its desired rate of 10.0000 Hz. Current loop rate is 6.7365 Hz.
+[component_container_isolated-1] [WARN] [1792030644.428760132] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030644.525608870] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030644.629116964] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030644.721324249] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030644.827796952] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030644.921850547] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.028588793] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.120993263] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.227139037] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.320777898] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.427638575] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.519953017] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.627936153] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.720435247] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.828794044] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030645.920747403] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.028985219] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.120226954] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.227223431] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.321014233] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.427100462] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.521117013] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.627813783] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.720175982] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.827081772] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030646.921477358] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030647.027071392] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030647.120231925] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030647.228103793] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030647.322369944] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [ERROR] [1792030647.322505786] [controller_server]: Controller patience exceeded
+[component_container_isolated-1] [WARN] [1792030647.322718209] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030647.335698608] [behavior_server]: Running spin
+[component_container_isolated-1] [INFO] [1792030647.335900404] [behavior_server]: Turning 1.57 for spin behavior.
+[component_container_isolated-1] [WARN] [1792030657.426066409] [behavior_server]: Exceeded time allowance before reaching the Spin goal - Exiting Spin
+[component_container_isolated-1] [WARN] [1792030657.426148326] [behavior_server]: spin failed
+[component_container_isolated-1] [WARN] [1792030657.426162036] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030657.444618081] [behavior_server]: Running wait
+[component_container_isolated-1] [INFO] [1792030662.445087788] [behavior_server]: wait completed successfully
+[component_container_isolated-1] [INFO] [1792030662.465444754] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030669.372574110] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030669.471363630] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030670.079176987] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030670.578740708] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030670.677318751] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030671.172003853] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030671.273108116] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030671.372170229] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030671.474247047] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030671.575748127] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030671.678273456] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030671.774854827] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030671.871442356] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030676.072465737] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030676.571443458] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030676.673466071] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030678.371631003] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030678.471810655] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030678.572276667] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030678.671873525] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030678.772105870] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030678.871549101] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030678.971382025] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.073297418] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.176467459] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.271870939] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.371490980] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.473038739] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.571412081] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.673151314] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.772930540] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.872246513] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030679.972758685] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.073614664] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.171101867] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.271948645] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.373171268] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.471720646] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.572157517] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.672613013] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.772011769] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.872499243] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030680.970803930] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030681.073733017] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030681.170882418] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030681.271014807] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030681.372703272] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [ERROR] [1792030681.372797158] [controller_server]: Controller patience exceeded
+[component_container_isolated-1] [WARN] [1792030681.373008473] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030681.384432231] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030681.385309064] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030681.507725885] [controller_server]: Control loop missed its desired rate of 10.0000 Hz. Current loop rate is 8.1851 Hz.
+[component_container_isolated-1] [WARN] [1792030683.014721908] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030683.515730224] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030683.714629632] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030683.914424828] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030684.014857322] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030684.114495490] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030684.215120535] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030684.314669242] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030684.414650031] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030684.514389019] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030683.434075053] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030683.534907587] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030683.638607872] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030683.735168730] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030683.833763468] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030683.933456195] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030684.036377316] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030684.134973956] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030685.232730733] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030685.332766316] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030685.434489423] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030685.535695301] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030686.734495621] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030686.833455014] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030686.932984243] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030687.032590038] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030687.134584221] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030687.236464490] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030687.332853968] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030693.134445477] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030693.334194634] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030693.435803767] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030693.532762056] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030693.634479934] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030693.733308079] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030693.834298380] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030693.934513321] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.035163818] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.135615777] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.234908257] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.338095343] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.433792032] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.535222520] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.636435710] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.733786115] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.834180756] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030694.934844140] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.032795287] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.133831136] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.234900207] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.336402543] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.435629804] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.537907472] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.632925454] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.734551638] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.833346947] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030695.933664919] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.032711320] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.132890828] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.233060973] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.337468476] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [ERROR] [1792030696.337566810] [controller_server]: Controller patience exceeded
+[component_container_isolated-1] [WARN] [1792030696.337789874] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030696.354905326] [behavior_server]: Running backup
+[component_container_isolated-1] [WARN] [1792030696.355312042] [behavior_server]: Collision Ahead - Exiting DriveOnHeading
+[component_container_isolated-1] [WARN] [1792030696.355359446] [behavior_server]: backup failed
+[component_container_isolated-1] [WARN] [1792030696.355375315] [behavior_server]: [backup] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030696.374477327] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030696.374863028] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[component_container_isolated-1] [INFO] [1792030696.376032656] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030696.424506653] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.485192046] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.591105113] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.688007572] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.786814121] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.885266004] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030696.983890080] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.086957714] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.188982156] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.286234425] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.385365814] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.484247597] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.585404757] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.682735155] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.783163693] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.883593376] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030697.983328940] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.084395900] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.183635294] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.284730524] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.391035821] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.488215306] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.592012944] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.686275245] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.788276597] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.884752265] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030698.984348898] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030699.090732343] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030699.190473894] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030699.283268091] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030699.387821515] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [ERROR] [1792030699.387926507] [controller_server]: Controller patience exceeded
+[component_container_isolated-1] [WARN] [1792030699.388219267] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030699.404983815] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-1] [INFO] [1792030699.405764319] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030699.422928773] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030699.517474830] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030699.617375309] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030699.714174766] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030699.821645763] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030699.924643116] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.020166682] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.114398038] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.215863697] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.313418714] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.417218655] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.517280854] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.612685471] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.716855992] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.820678125] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030700.913580811] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.012751647] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.114125602] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.213746508] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.315003240] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.419024869] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.521245120] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.614877756] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.721446593] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.821619714] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030701.921387055] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030702.020313154] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030702.119931212] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030702.224817092] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030702.324026523] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030702.419833336] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [ERROR] [1792030702.419942955] [controller_server]: Controller patience exceeded
+[component_container_isolated-1] [WARN] [1792030702.420151114] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030702.435981921] [behavior_server]: Running spin
+[component_container_isolated-1] [INFO] [1792030702.436116374] [behavior_server]: Turning 1.57 for spin behavior.
+[component_container_isolated-1] [WARN] [1792030703.538351949] [behavior_server]: Collision Ahead - Exiting Spin
+[component_container_isolated-1] [WARN] [1792030703.538414088] [behavior_server]: spin failed
+[component_container_isolated-1] [WARN] [1792030703.538425236] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[component_container_isolated-1] [INFO] [1792030703.554776267] [behavior_server]: Running wait
+[component_container_isolated-1] [INFO] [1792030708.555095538] [behavior_server]: wait completed successfully
+[component_container_isolated-1] [INFO] [1792030708.565473045] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030714.074365687] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030714.178705721] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [INFO] [1792030733.551786604] [controller_server]: Reached the goal!
+[component_container_isolated-1] [INFO] [1792030733.576541384] [bt_navigator]: Goal succeeded
+[component_container_isolated-1] [INFO] [1792030736.609142223] [bt_navigator]: Begin navigating from current location (-7.36, 7.56) to (0.00, 0.00)
+[component_container_isolated-1] [INFO] [1792030736.630258347] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-1] [WARN] [1792030762.749309027] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [WARN] [1792030762.850016829] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 348! 
+[component_container_isolated-1] [INFO] [1792030839.411949626] [controller_server]: Reached the goal!
+[component_container_isolated-1] [INFO] [1792030839.431996605] [bt_navigator]: Goal succeeded
+[component_container_isolated-1] [INFO] [1792030842.816377927] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[component_container_isolated-1] [INFO] [1792030842.816474237] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[component_container_isolated-1] [INFO] [1792030842.816597164] [map_server]: Deactivating
+[component_container_isolated-1] [INFO] [1792030842.816617891] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030842.827328749] [map_server]: Cleaning up
+[component_container_isolated-1] [INFO] [1792030842.827409464] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030842.827420388] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[component_container_isolated-1] [INFO] [1792030842.827464988] [amcl]: Deactivating
+[component_container_isolated-1] [INFO] [1792030842.827488292] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030842.838359413] [amcl]: Cleaning up
+[component_container_isolated-1] [INFO] [1792030842.867256979] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030842.867322217] [lifecycle_manager_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_localization)
+[component_container_isolated-1] [INFO] [1792030842.867388900] [lifecycle_manager_localization]: [34m[1mTerminating bond timer...[0m[0m
+[component_container_isolated-1] [INFO] [1792030842.907386875] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[component_container_isolated-1] [INFO] [1792030842.907481621] [controller_server]: Deactivating
+[component_container_isolated-1] [INFO] [1792030842.907544577] [local_costmap.local_costmap]: Deactivating
+[component_container_isolated-1] [INFO] [1792030842.961588028] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030842.972985355] [controller_server]: Cleaning up
+[component_container_isolated-1] [INFO] [1792030842.974151327] [local_costmap.local_costmap]: Cleaning up
+[component_container_isolated-1] [INFO] [1792030843.025221036] [lifecycle_manager_navigation]: [34m[1mHave not received a heartbeat from controller_server.[0m[0m
+[component_container_isolated-1] [ERROR] [1792030843.025381768] [lifecycle_manager_navigation]: CRITICAL FAILURE: SERVER controller_server IS DOWN after not receiving a heartbeat for 4000 ms. Shutting down related nodes.
+[component_container_isolated-1] [INFO] [1792030843.025495371] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[component_container_isolated-1] [INFO] [1792030843.025513281] [lifecycle_manager_navigation]: [34m[1mResetting managed nodes...[0m[0m
+[component_container_isolated-1] [INFO] [1792030843.025527075] [lifecycle_manager_navigation]: [34m[1mDeactivating docking_server[0m[0m
+[component_container_isolated-1] [INFO] [1792030843.026034931] [docking_server]: Deactivating docking_server
+[component_container_isolated-1] [INFO] [1792030843.071028522] [docking_server]: Destroying bond (docking_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.096394393] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.096470319] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[component_container_isolated-1] [INFO] [1792030843.096519171] [smoother_server]: Deactivating
+[component_container_isolated-1] [INFO] [1792030843.096553160] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.107717952] [smoother_server]: Cleaning up
+[component_container_isolated-1] [INFO] [1792030843.136347323] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.136421512] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[component_container_isolated-1] [INFO] [1792030843.136470762] [planner_server]: Deactivating
+[component_container_isolated-1] [INFO] [1792030843.136517604] [global_costmap.global_costmap]: Deactivating
+[component_container_isolated-1] [INFO] [1792030843.187560221] [lifecycle_manager_navigation]: [34m[1mDeactivating waypoint_follower[0m[0m
+[component_container_isolated-1] [INFO] [1792030843.187980125] [waypoint_follower]: Deactivating
+[component_container_isolated-1] [INFO] [1792030843.188074729] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.309840105] [lifecycle_manager_navigation]: [34m[1mDeactivating bt_navigator[0m[0m
+[component_container_isolated-1] [INFO] [1792030843.310461742] [bt_navigator]: Deactivating
+[component_container_isolated-1] [INFO] [1792030843.310534527] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.429418999] [lifecycle_manager_navigation]: [34m[1mDeactivating collision_monitor[0m[0m
+[component_container_isolated-1] [INFO] [1792030843.429869135] [collision_monitor]: Deactivating
+[component_container_isolated-1] [INFO] [1792030843.429961676] [collision_monitor]: Destroying bond (collision_monitor) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.434690808] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[component_container_isolated-1] [INFO] [1792030843.434786072] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.445653939] [planner_server]: Cleaning up
+[component_container_isolated-1] [INFO] [1792030843.481584440] [global_costmap.global_costmap]: Cleaning up
+[component_container_isolated-1] [INFO] [1792030843.493753139] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[component_container_isolated-1] [INFO] [1792030843.494082364] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[component_container_isolated-1] [INFO] [1792030843.548301870] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.548385183] [route_server]: Running Nav2 LifecycleNode rcl preshutdown (route_server)
+[component_container_isolated-1] [INFO] [1792030843.548434407] [route_server]: Deactivating
+[component_container_isolated-1] [INFO] [1792030843.548471859] [route_server]: Destroying bond (route_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.549267186] [lifecycle_manager_navigation]: [34m[1mDeactivating velocity_smoother[0m[0m
+[component_container_isolated-1] [INFO] [1792030843.549696084] [velocity_smoother]: Deactivating
+[component_container_isolated-1] [INFO] [1792030843.549848482] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.559207148] [route_server]: Cleaning up
+[component_container_isolated-1] [INFO] [1792030843.592253957] [route_server]: Destroying bond (route_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1792030843.592355673] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[component_container_isolated-1] [INFO] [1792030843.592404805] [behavior_server]: Deactivating
+[component_container_isolated-1] [INFO] [1792030843.592458431] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[component_container_isolated-1] Magick: abort due to signal 11 (SIGSEGV) "Segmentation Fault"...
+[ERROR] [component_container_isolated-1]: process has died [pid 5077, exit code -6, cmd '/opt/ros/jazzy/lib/rclcpp_components/component_container_isolated --ros-args --log-level info --ros-args -r __node:=nav2_container --params-file /tmp/launch_params_ntspfm9k --params-file /tmp/launch_params_g3q5hrtk -r /tf:=tf -r /tf_static:=tf_static'].
